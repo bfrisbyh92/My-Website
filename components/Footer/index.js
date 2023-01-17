@@ -13,7 +13,7 @@ export default function Footer() {
   return (
     <div className="mt-12 px-10 md:px-32 relative h-fit w-full border-t-[1px] border-lightBgSecondaryColorTranslucent dark:border-bgSecondaryColor contain-paint">
       <h1 className="h-fit w-fit max-w-full absolute m-auto top-0 left-0 right-0 bottom-0 text-center text-border-thick text-[24vw] md:text-[14vw] opacity-5">
-        Jaagrav Seal
+        Brendan Seal
       </h1>
       <img
         className="w-[120vw] md:w-[75vw] max-w-none absolute z-0 right-0 bottom-0 m-auto -translate-x-1/4 md:-translate-x-0 translate-y-2/3 dark:opacity-60 pointer-events-none"
@@ -53,7 +53,7 @@ export default function Footer() {
                 </Link>
                 <a
                   className="text-lightTextColor dark:text-white text-3xl w-fit inline "
-                  href="https://github.com/Jaagrav"
+                  href="https://github.com/Brendan"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -61,7 +61,7 @@ export default function Footer() {
                 </a>
                 <a
                   className="text-lightTextColor dark:text-white text-3xl w-fit inline "
-                  href="https://linkedin.com/in/jaagrav"
+                  href="https://linkedin.com/in/Brendan"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -77,7 +77,7 @@ export default function Footer() {
                 </a>
                 <a
                   className="text-lightTextColor dark:text-white text-3xl w-fit inline "
-                  href="https://gitlab.com/Jaagrav"
+                  href="https://gitlab.com/Brendan"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -85,7 +85,7 @@ export default function Footer() {
                 </a>
                 <a
                   className="text-lightTextColor dark:text-white text-3xl w-fit inline "
-                  href="https://twitter.com/xJaagrav"
+                  href="https://twitter.com/xBrendan"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -93,7 +93,7 @@ export default function Footer() {
                 </a>
                 <a
                   className="text-lightTextColor dark:text-white text-3xl w-fit inline "
-                  href="mailto:contact@jaagrav.in"
+                  href="mailto:contact@Brendan.in"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -106,12 +106,12 @@ export default function Footer() {
           <div className="text-lightTextColor dark:text-white text-lg text-center pb-6">
             © {new Date().getFullYear()}{" "}
             <a
-              href="https://github.com/Jaagrav/Jaagrav"
+              href="https://github.com/Brendan/Brendan"
               target="_blank"
               className="transition text-pink dark:text-indigo hover:underline underline-offset-8 text-lg"
               rel="noreferrer"
             >
-              Jaagrav Seal
+              Brendan Seal
             </a>
             . All this shit is mine.
           </div>

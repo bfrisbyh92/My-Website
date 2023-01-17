@@ -21,7 +21,7 @@ export default function Page({ project, randomProject }) {
         const githubRepoData = await octokit.request(
           "GET /repos/{username}/{repo}",
           {
-            username: "Jaagrav",
+            username: "Brendan",
             repo: project.link,
           }
         );
@@ -35,9 +35,9 @@ export default function Page({ project, randomProject }) {
   return (
     <div className="h-fit w-full">
       <SEO
-        title={`${project.title} / Projects / Jaagrav`}
-        desc={`${project.miniDesc} / Projects / Jaagrav`}
-        img={`https://jaagrav-2.vercel.app${project.seoimg}`}
+        title={`${project.title} / Projects / Brendan`}
+        desc={`${project.miniDesc} / Projects / Brendan`}
+        img={`https://Brendan-2.vercel.app${project.seoimg}`}
       />
       <Animatify>
         <SubHeader

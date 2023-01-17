@@ -11,9 +11,9 @@ export default function Contact() {
   return (
     <div className="h-fit w-full">
       <SEO
-        title="Contact / Jaagrav"
+        title="Contact / Brendan"
         desc="You got something to say? Feel free to reach out to me, I’ll respond as soon as possible."
-        img="https://jaagrav-2.vercel.app/assets/images/seo/contact.webp"
+        img="https://Brendan-2.vercel.app/assets/images/seo/contact.webp"
       />
       <Animatify>
         <SubHeader
@@ -37,7 +37,7 @@ export default function Contact() {
                 type="email"
                 name="email"
                 className="block w-full text-lightTextColor dark:text-white text-xl p-6 outline-none bg-transparent border-2 border-bgColor dark:border-white my-6 rounded-xl"
-                placeholder="For e.g. jaagravseal03@gmail.com"
+                placeholder="For e.g. Brendanseal03@gmail.com"
                 spellCheck={false}
               />
               <ValidationError
@@ -75,11 +75,11 @@ export default function Contact() {
           </div>
         </div>
         <div className="text-center">
-          <Link href="mailto:contact@jaagrav.in">
+          <Link href="mailto:contact@Brendan.in">
             <a target="_blank">
               <div className="mt-12 md:m-auto ">
                 <h1 className="text-border text-[10vw] md:text-[7rem] whitespace-nowrap transition hover:scale-105">
-                  contact@jaagrav.in
+                  contact@Brendan.in
                 </h1>
               </div>
             </a>

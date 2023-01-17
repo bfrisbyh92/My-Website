@@ -22,10 +22,10 @@ export default function SkillsSection() {
   useEffect(() => {
     const getGithubData = async () => {
       const githubProfile = await octokit.request("GET /users/{username}", {
-        username: "Jaagrav",
+        username: "Brendan",
       });
       getGithubContributions({
-        username: "Jaagrav",
+        username: "Brendan",
         token: process.env.GITHUB_ACCESS_TOKEN,
       }).then((res) => {
         setTotalContributions(
@@ -70,7 +70,7 @@ export default function SkillsSection() {
             <div className="text-3xl text-lightTextColor dark:text-white">
               {"Book a 30-min private event with me."}
             </div>
-            <Link href={"https://bit.ly/book-jaagrav"}>
+            <Link href={"https://bit.ly/book-Brendan"}>
               <a
                 target="_blank"
                 className={`inline-block mt-6 w-full md:w-fit text-center md:text-left md:mr-4 px-10 py-2 text-xl border-lightTextColor dark:border-white border-2 bg-lightTextColor dark:bg-white text-white dark:text-bgColor rounded-xl transition shadow-none hover:shadow-xl hover:scale-105`}
@@ -93,7 +93,7 @@ export default function SkillsSection() {
             <Skill
               logo={<BsCodeSlash />}
               title="Web Development"
-              desc="Everybody knows HTML, CSS and JavaScript. I also am experienced in libraries like NodeJS, VueJS, NextJS, ofc ReactJS, am practicing React Native, ElectronJS, Firebase, Google Cloud APIs, Blockly, SocketIO, ExpressJS, Tailwind, Material UI, ThreeJS, CannonJS, I can keep going and I am always learning."
+              desc="Everybody knows HTML, CSS and JavaScript. I also am experienced in libraries like NodeBF, VueBF, NextBF, ofc ReactBF, am practicing React Native, ElectronBF, Firebase, Google Cloud APIs, Blockly, SocketIO, ExpressBF, Tailwind, Material UI, ThreeBF, CannonBF, I can keep going and I am always learning."
             />
             <Skill
               logo={<VscSymbolInterface />}

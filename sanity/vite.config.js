@@ -1,0 +1,1 @@
+server.hmr.overlay = false

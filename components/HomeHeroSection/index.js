@@ -42,7 +42,7 @@ export default function HomeHeroSection() {
                 title="This is not a link fool."
                 className="underline underline-offset-8 pointer-events-auto cursor-pointer text-pink dark:text-blue"
               >
-                Jaagrav Seal
+                Brendan Seal
               </span>
             </span>
             <span className="md:leading-[9rem] mb-6 block text-[13vw] sm:text-[7rem] text-lightTextColor dark:text-white md:text-center font-secondary max-w-[100vw] md:max-w-[80rem]">
@@ -61,7 +61,7 @@ export default function HomeHeroSection() {
             <div className="flex justify-center items-center gap-6 mt-8">
               <a
                 className="text-lightTextColor dark:text-white text-4xl md:text-2xl w-fit inline pointer-events-auto"
-                href="https://github.com/Jaagrav"
+                href="https://github.com/Brendan"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -69,7 +69,7 @@ export default function HomeHeroSection() {
               </a>
               <a
                 className="text-lightTextColor dark:text-white text-4xl md:text-2xl w-fit inline pointer-events-auto"
-                href="https://linkedin.com/in/jaagrav"
+                href="https://linkedin.com/in/Brendan"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -77,7 +77,7 @@ export default function HomeHeroSection() {
               </a>
               <a
                 className="text-lightTextColor dark:text-white text-4xl md:text-2xl w-fit inline pointer-events-auto"
-                href="mailto:contact@jaagrav.in"
+                href="mailto:contact@Brendan.in"
                 target="_blank"
                 rel="noreferrer"
               >

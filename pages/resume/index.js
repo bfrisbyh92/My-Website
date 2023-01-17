@@ -5,9 +5,9 @@ export default function Resume() {
   return (
     <div>
       <SEO
-        title="Resume / Jaagrav"
+        title="Resume / Brendan"
         desc="Take a look at my resume to get a more formal description about myself. To know stuff like my education, etc. You can download my resume for future reference."
-        img="https://jaagrav-2.vercel.app/assets/images/seo/resume.webp"
+        img="https://Brendan-2.vercel.app/assets/images/seo/resume.webp"
       />
       <SubHeader
         title="My Resume"
@@ -16,7 +16,7 @@ export default function Resume() {
       <div className="px-10 md:px-32 relative z-10">
         <div className="max-w-screen-xl mx-auto">
           <iframe
-            src="/assets/resume/jaagrav-resume.pdf"
+            src="/assets/resume/Brendan-resume.pdf"
             className="h-[90vh] w-full rounded-xl"
           ></iframe>
         </div>
