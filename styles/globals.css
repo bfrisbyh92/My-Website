@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #fff;
+  --background-b: #f0f0f0;
+  --pink: #513bff;
+  --indigo: #5cd700;
+  --text: #334155;
+}
+
+:root.dark {
+  --background: #151b28;
+  --background-b: #2a3241;
+  --pink: #513bff;
+  --indigo: #5cd700;
+  --text: #fff;
+}
+
+@font-face {
+  font-family: "TimeBurner";
+  src: url(/assets/fonts/TimeBurner.woff);
+}
+@font-face {
+  font-family: "Marcellus";
+  src: url(/assets/fonts/Marcellus.woff);
+}
+@font-face {
+  font-family: "Sulphur Point";
+  src: url(/assets/fonts/SulphurPoint-Bold.woff);
+}
+
+* {
+  font-family: "Sulphur Point", "TimeBurner", sans-serif;
+  /* font-weight: bold; */
+}
+
+img {
+  -webkit-user-drag: none;
+}
+
+body {
+  transition: 250ms;
+  background-color: var(--background);
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.text-border {
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1.3px;
+  -webkit-text-stroke-color: var(--text);
+}
+
+html:not(.dark) .text-border-light {
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--background);
+}
+
+.text-border-thick,
+html.dark .text-border-light {
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--text);
+}
+
+.contain-paint {
+  contain: paint;
+}
+
+.carousel-root {
+  height: 100%;
+}
+
+.carousel-slider {
+  height: 95%;
+}
+
+.alice-carousel__wrapper {
+  overflow: visible !important;
+}
+
+@media screen and (max-width: 360px) {
+  html,
+  body {
+    font-size: 9px;
+  }
+
+  .text-border {
+    -webkit-text-stroke-width: 1.25px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 411px) {
+  html,
+  body {
+    font-size: 11px;
+  }
+
+  .text-border {
+    -webkit-text-stroke-width: 1.5px;
+  }
+}
+
+@media screen and (min-width: 411px) and (max-width: 769px) {
+  html,
+  body {
+    font-size: 11px;
+  }
+
+  .text-border {
+    -webkit-text-stroke-width: 1.5px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+}
+
+.page-transition-enter .page-transition {
+  /* position: absolute !important; */
+  height: 100% !important;
+  width: 100% !important;
+  /* display: none !important; */
+}
+
+li.alice-carousel__dots-item:not(.__custom) {
+  transition: 0.3s;
+  /*background: var(--text) !important;*/
+  opacity: 0.8;
+}
+
+li.alice-carousel__dots-item:not(.__custom).__active {
+  transform: scale(1.75) !important;
+  background-color: var(--text);
+  border: 1px solid var(--text);
+  box-shadow: 0 0 0 1px var(--background) inset;
+  box-sizing: border-box;
+}
+
+.read-more-button {
+  cursor: pointer !important;
+  color: var(--pink) !important;
+  text-decoration: underline !important;
+  text-underline-offset: 0.5rem !important;
+  display: inline !important;
+  margin: 0 0.25rem;
+}
+
+.animated {
+  transition: 0.25s ease-in-out;
+}
+
