@@ -17,12 +17,8 @@ export default function About() {
     <div className="w-full pt-4 h-fit">
       <SEO
         title="About / Brendan"
-        desc="A Full Stack Developer based in West Bengal, India. I enjoy
-      designing and developing websites, I am currently 18 years old,
-      and am also in the first year of my college. I am currently
-      pursuing B. Tech in Computer Science and Engineering from Techno India
-      University."
-        img="https://Brendan-2.vercel.app/assets/images/seo/about.webp"
+        desc="I am a highly skilled and versatile professional with a passion for technology. As a web developer and software engineer, I have a deep understanding of the latest technologies and programming languages, and use this knowledge to create innovative and effective solutions for clients. Additionally, as a security analyst and penetration tester, I have a strong understanding of the latest security threats and vulnerabilities and use this knowledge to help organizations protect their systems and data. Overall, my wild curiosity and passion for technology drives me to stay on the cutting edge of the field and deliver the best possible results."
+        img="https://jaagrav-2.vercel.app/assets/images/seo/about.webp"
       />
       <Animatify>
         <div className="px-10 pb-12 md:px-32">
@@ -46,12 +42,7 @@ export default function About() {
                   Brendan Frisby
                 </h1>
                 <span className="block mt-8 text-xl leading-10 text-lightTextColor dark:text-white">
-                  A Full Stack Developer based in West Bengal, India. I enjoy
-                  designing and developing websites, I am currently{" "}
-                  {new Date().getFullYear() - 2004} years old, and am also in
-                  the first year of my college. I am currently pursuing B. Tech
-                  in Computer Science and Engineering from Techno India
-                  University.
+                  I am a {new Date().getFullYear() - 1993}  year old highly skilled and versatile professional with a passion for technology. As a web developer and software engineer, I have a deep understanding of the latest technologies and programming languages, and use this knowledge to create innovative and effective solutions for clients. Additionally, as a security analyst and penetration tester, I have a strong understanding of the latest security threats and vulnerabilities and use this knowledge to help organizations protect their systems and data. Overall, my wild curiosity and passion for technology drives me to stay on the cutting edge of the field and deliver the best possible results.
                 </span>
                 <Link href="/resume">
                   <a
@@ -75,22 +66,22 @@ export default function About() {
         <SkillsSection />
         <SubHeader
           title="My Experience"
-          caption="I am a goddamn professional. So long I have done some internships, have worked for some clients, and have also contributed to OpenSource bootcamps, communities and programs that you can read more about below."
+          caption="With a wild curiousity for all things tech, I found my passion with coding. I started a few years back but it wasn't until I attended General Assembly's Software Engineering Immserive that everything started to click. I've followed that up with the eJPT certification by eLearnSecurity for Penetration Testing. I've devloped a wide range of skills and plan to continue developing that over a lifetime. Next up the OSCP, CEH, and OSWP. Why? Because I love learning and there's nothing I'd rather do."
         />
         <ExperienceSection />
         <SubHeader
-          title="People love me, seriously."
-          caption="The word testimonial comes from the latin word testimonium which means a formal statement testifying to someone's character and qualifications. Basically this section highlights some of the beautiful things, people I admire and respect, say about me."
+          title="Testimonials"
+          caption="Testimonials from those around me"
         />
         <TestimonialsSection />
         <span className="relative z-10 block mx-auto mt-2 mb-16 text-xl text-center text-lightTextColor dark:text-white skew">
           {"All of these are totally real, "}
-          <Link href="https://www.linkedin.com/in/Brendan/details/recommendations/">
+          <Link href="https://www.linkedin.com/in/brendan-frisby/details/recommendations/">
             <a
               target="_blank"
               className="transition text-pink hover:underline underline-offset-8"
             >
-              look here for proof.
+              LinkedIn Testimonials
             </a>
           </Link>{" "}
         </span>
