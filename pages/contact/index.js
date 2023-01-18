@@ -37,7 +37,7 @@ export default function Contact() {
                 type="email"
                 name="email"
                 className="block w-full text-lightTextColor dark:text-white text-xl p-6 outline-none bg-transparent border-2 border-bgColor dark:border-white my-6 rounded-xl"
-                placeholder="For e.g. Brendanseal03@gmail.com"
+                placeholder="For e.g. BrendanFrisby03@gmail.com"
                 spellCheck={false}
               />
               <ValidationError

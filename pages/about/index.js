@@ -35,7 +35,7 @@ export default function About() {
             </div> */}
             <div className="md:m-auto">
               <h1 className="absolute text-border text-[6rem] md:text-[7rem] whitespace-nowrap opacity-10 -translate-y-1/2">
-                Brendan Seal
+                Brendan Frisby
               </h1>
               <img
                 className="absolute m-auto top-0 left-0 -translate-y-1/2 -translate-x-1/4 max-w-none w-[50rem] md:w-[75rem] dark:opacity-60"
@@ -43,7 +43,7 @@ export default function About() {
               />
               <div className="relative z-10">
                 <h1 className="bottom-0 m-auto text-5xl text-lightTextColor dark:text-white">
-                  Brendan Seal
+                  Brendan Frisby
                 </h1>
                 <span className="block mt-8 text-xl leading-10 text-lightTextColor dark:text-white">
                   A Full Stack Developer based in West Bengal, India. I enjoy

@@ -1,9 +1,18 @@
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-
+// import client from '../../sanityInit';
 import experienceData from "../../experience-data";
 import Image from "next/image";
 import Link from "next/link";
+
+// client
+//   .fetch('*[_type == "experience"]')
+//   .then((experiences) => {
+//     console.log(experiences)
+//   })
+//   .catch((error) => {
+//     console.log(error)
+//   })
 
 export default function ExperienceSection() {
     return (
@@ -18,7 +27,7 @@ export default function ExperienceSection() {
                     swipeExtraPadding={2000}
                 >
                     {experienceData.map((experience, index) => (
-                        <Experience {...experience} key={`experience-${index}`}/>
+                        <Experience {...experience} key={`experience-${index}`} />
                     ))}
                 </AliceCarousel>
             </div>
@@ -26,11 +35,11 @@ export default function ExperienceSection() {
     );
 }
 
-function Experience({icon, date, organization, position, desc, website}) {
+function Experience({ icon, date, organization, position, desc, website }) {
     return (
         <div className="flex flex-col gap-4 px-10 md:pl-0 md:pr-12 select-none cursor-grab active:cursor-grabbing w-full md:w-[45rem]">
             <div className="flex flex-col md:flex-row gap-4">
-                <img src={icon} className="h-24 w-24 rounded-lg select-none drag" alt={organization + " logo"}/>
+                <img src={icon} className="h-24 w-24 rounded-lg select-none drag" alt={organization + " logo"} />
                 <div className="flex flex-col">
                     <span className="text-5xl text-lightTextColor dark:text-white">{organization}</span>
                     <span className="text-5xl text-border md:whitespace-nowrap">{position}</span>
@@ -41,12 +50,12 @@ function Experience({icon, date, organization, position, desc, website}) {
                 <div className="text-xl text-lightTextColor dark:text-white whitespace-pre-line">{desc}</div>
             </div>
             <Link href={website}>
-            <a
-                target="_blank"
-                className={`inline-block w-full md:w-fit text-center md:text-left md:mr-4 px-8 py-2 text-xl border-lightTextColor dark:border-white border-2 bg-lightTextColor dark:bg-white text-white dark:text-bgColor rounded-xl transition shadow-none`}
-            >
-                Website
-            </a>
+                <a
+                    target="_blank"
+                    className={`inline-block w-full md:w-fit text-center md:text-left md:mr-4 px-8 py-2 text-xl border-lightTextColor dark:border-white border-2 bg-lightTextColor dark:bg-white text-white dark:text-bgColor rounded-xl transition shadow-none`}
+                >
+                    Website
+                </a>
             </Link>
         </div>
     )

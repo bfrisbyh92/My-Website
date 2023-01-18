@@ -42,7 +42,7 @@ export default function HomeHeroSection() {
                 title="This is not a link fool."
                 className="underline underline-offset-8 pointer-events-auto cursor-pointer text-pink dark:text-blue"
               >
-                Brendan Seal
+                Brendan Frisby
               </span>
             </span>
             <span className="md:leading-[9rem] mb-6 block text-[13vw] sm:text-[7rem] text-lightTextColor dark:text-white md:text-center font-secondary max-w-[100vw] md:max-w-[80rem]">

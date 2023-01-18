@@ -53,7 +53,7 @@ export default function PageTransition() {
         className="absolute m-auto inset-0 translate-x-1/4 dark:opacity-60 pointer-events-none"
       />
       <div className="my-name h-fit w-fit text-6xl text-lightTextColor dark:text-white absolute inset-0 m-auto z-50 whitespace-nowrap">
-        Brendan <span className="text-border">Seal</span>
+        Brendan <span className="text-border">Frisby</span>
       </div>
       <img
         src="/assets/images/blur-ball-indigo.webp"

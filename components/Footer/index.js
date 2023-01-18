@@ -13,7 +13,7 @@ export default function Footer() {
   return (
     <div className="mt-12 px-10 md:px-32 relative h-fit w-full border-t-[1px] border-lightBgSecondaryColorTranslucent dark:border-bgSecondaryColor contain-paint">
       <h1 className="h-fit w-fit max-w-full absolute m-auto top-0 left-0 right-0 bottom-0 text-center text-border-thick text-[24vw] md:text-[14vw] opacity-5">
-        Brendan Seal
+        Brendan Frisby
       </h1>
       <img
         className="w-[120vw] md:w-[75vw] max-w-none absolute z-0 right-0 bottom-0 m-auto -translate-x-1/4 md:-translate-x-0 translate-y-2/3 dark:opacity-60 pointer-events-none"
@@ -111,7 +111,7 @@ export default function Footer() {
               className="transition text-pink dark:text-indigo hover:underline underline-offset-8 text-lg"
               rel="noreferrer"
             >
-              Brendan Seal
+              Brendan Frisby
             </a>
             . All this shit is mine.
           </div>

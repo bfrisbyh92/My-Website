@@ -16,13 +16,13 @@ export default defineType({
       type: 'string',
     }),
     defineField({
-      name: 'start-date',
-      title: 'Start-Date',
+      name: 'startdate',
+      title: 'Startdate',
       type: 'string',
     }),
     defineField({
-      name: 'end-date',
-      title: 'End-Date',
+      name: 'enddate',
+      title: 'Enddate',
       type: 'string',
     }),
     defineField({
