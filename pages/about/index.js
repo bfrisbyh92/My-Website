@@ -17,18 +17,18 @@ export default function About() {
     <div className="w-full pt-4 h-fit">
       <SEO
         title="About / Brendan"
-        desc="I am a highly skilled and versatile professional with a passion for technology. As a web developer and software engineer, I have a deep understanding of the latest technologies and programming languages, and use this knowledge to create innovative and effective solutions for clients. Additionally, as a security analyst and penetration tester, I have a strong understanding of the latest security threats and vulnerabilities and use this knowledge to help organizations protect their systems and data. Overall, my wild curiosity and passion for technology drives me to stay on the cutting edge of the field and deliver the best possible results."
-        img="https://jaagrav-2.vercel.app/assets/images/seo/about.webp"
+        desc="I am a skilled and versatile professional with a passion for technology. As a web developer and software engineer, I have a deep understanding of the latest technologies and programming languages, and use this knowledge to create innovative and effective solutions for clients. Additionally, as a security analyst and penetration tester, I have a strong understanding of the latest security threats and vulnerabilities and use this knowledge to help organizations protect their systems and data. Overall, my wild curiosity and passion for technology drives me to stay on the cutting edge of the field and deliver the best possible results."
+        img="./assets/images/profile.webp"
       />
       <Animatify>
         <div className="px-10 pb-12 md:px-32">
           <div className="md:grid md:grid-cols-[1fr_0.4fr] gap-8 max-w-screen-xl m-auto mt-4">
-            {/* <div className="block md:hidden">
+            <div className="block md:hidden">
               <div
                 className="relative z-10 bg-contain bg-black bg-no-repeat bg-center w-full h-[50vw]"
                 style={{ backgroundImage: "url(/assets/images/Brendan.webp)" }}
               ></div>
-            </div> */}
+            </div>
             <div className="md:m-auto">
               <h1 className="absolute text-border text-[6rem] md:text-[7rem] whitespace-nowrap opacity-10 -translate-y-1/2">
                 Brendan Frisby
