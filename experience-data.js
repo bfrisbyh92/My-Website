@@ -1,6 +1,6 @@
 var experienceData = [
   {
-    icon: "/assets/images/org-atlan.webp",
+    icon: "/assets/images/fiverr.jpeg",
     date: "Jan 18th, 2022 - Current",
     organization: "Freelance Web-Mobile App Development",
     position: "Fiverr & Upwork",
@@ -8,7 +8,7 @@ var experienceData = [
     website: 'https://brendanfrisby.vercel.app'
   },
   {
-    icon: "/assets/images/org-social3.webp",
+    icon: "/assets/images/freight.webp",
     date: "2019 - 2022",
     organization: "Sovanah Global Logistics",
     position: "Warehouse Associate",
@@ -16,7 +16,7 @@ var experienceData = [
     website: 'https://app.social3.club'
   },
   {
-    icon: "/assets/images/org-cjr.webp",
+    icon: "/assets/images/cheesecake.jpeg",
     date: "Jan 18th 2017 - March 14th, 2019",
     organization: "The Cheesecake Factory",
     position: "Server",
