@@ -48,7 +48,7 @@ export default function About() {
                   <a
                     className={`inline-block mt-8 w-full md:w-fit text-center md:text-left md:mr-4 px-8 py-2 text-xl border-lightTextColor dark:border-white border-2 bg-lightTextColor dark:bg-white text-white dark:text-bgColor rounded-xl transition shadow-none hover:shadow-xl hover:scale-105`}
                   >
-                    Check out Resume
+                    Check out my Resume
                   </a>
                 </Link>
               </div>
@@ -66,7 +66,7 @@ export default function About() {
         <SkillsSection />
         <SubHeader
           title="My Experience"
-          caption="With a wild curiousity for all things tech, I found my passion with coding. I started a few years back but it wasn't until I attended General Assembly's Software Engineering Immserive that everything started to click. I've followed that up with the eJPT certification by eLearnSecurity for Penetration Testing. I've devloped a wide range of skills and plan to continue developing that over a lifetime. Next up the OSCP, CEH, and OSWP. Why? Because I love learning and there's nothing I'd rather do."
+          caption="With a wild curiousity for all things tech, I found my passion with coding. I started a few years back but it wasn't until I attended General Assembly's Software Engineering Immserive that everything started to click. I've followed that up with the eJPT certification by eLearnSecurity for Penetration Testing. I have many free certifications from FreeCodeCamp/OdinProject on various topics as well. I've devloped a wide range of skills and plan to continue developing that over a lifetime. Next up the OSCP, CEH, and OSWP. Why? Because I love learning and there's nothing I'd rather do."
         />
         <ExperienceSection />
         <SubHeader

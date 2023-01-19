@@ -42,18 +42,18 @@ export default function Home() {
           Wait that’s it?{" "}
           <Link href="/projects">
             <a className="transition text-pink hover:underline underline-offset-8">
-              Show me more!
+              Can't I just view them all?
             </a>
           </Link>
         </span>
         <SubHeader
           title="My Experience"
-          caption="I am a goddamn professional. So long I have done some internships, have worked for some clients, and have also contributed to OpenSource bootcamps, communities and programs that you can read more about below."
+          caption="With a passion for technology and a diverse background in customer service and personal development, I bring a unique perspective to creating innovative and user-friendly digital solutions."
         />
         <ExperienceSection />
         <span className="relative z-10 block mx-auto my-16 text-xl text-center text-lightTextColor dark:text-white skew">
           {"There's more, "}
-          <Link href="https://linkedin.com/in/Brendan">
+          <Link href="https://linkedin.com/in/brendan-frisby">
             <a
               target="_blank"
               className="transition text-indigo hover:underline underline-offset-8"
@@ -65,8 +65,8 @@ export default function Home() {
         <SubHeader title="Why hire me?" />
         <SkillsSection />
         <span className="relative z-10 block px-10 mx-auto my-16 text-xl text-center text-lightTextColor dark:text-white md:px-32">
-          {"Dude c'mon if you haven't checked me out on "}
-          <Link href="https://linkedin.com/in/Brendan">
+          {"Give a Like and Follow"}
+          <Link href="https://linkedin.com/in/brendan-frisby">
             <a
               className="transition text-indigo hover:underline underline-offset-8"
               target="_blank"
@@ -76,12 +76,12 @@ export default function Home() {
           </Link>
           , do it!
           {" Also here's my "}
-          <Link href="https://github.com/Brendan">
+          <Link href="https://github.com/bfrisbyh92">
             <a
               className="transition text-pink hover:underline underline-offset-8"
               target="_blank"
             >
-              GitHub!!!
+              GitHub
             </a>
           </Link>{" "}
         </span>

@@ -44,7 +44,7 @@ export default function SkillsSection() {
         <div className="flex justify-center flex-col gap-6">
           <div className="text-xl text-lightTextColor dark:text-white leading-8">
             {
-              "Here's a list of all my skills and all the reasons why you should hire me. As a developer, I don't completely know anything, you see I am not very good at memorizing, I normally read documentations everytime I am building something, but I make sure to get the work done in time."
+              "As a versatile developer with experience in mobile app development, web development, and penetration testing, I bring a unique combination of skills to the table. My background in customer service and personal development allows me to create user-friendly and innovative solutions, while my expertise in penetration testing ensures that the final product is secure and scalable. Whether it's a website, mobile app, or other digital product, I am dedicated to delivering high-quality, secure, and innovative solutions that exceed expectations."
             }
           </div>
           <div className="flex flex-row justify-center items-center gap-3 h-full">
@@ -82,33 +82,33 @@ export default function SkillsSection() {
         </div>
         <div className="h-full w-full bg-lightBgSecondaryColor dark:bg-bgSecondaryColor rounded-xl overflow-hidden pb-6">
           <AliceCarousel
-              infinite
-              autoWidth
-              autoHeight
-              mouseTracking
-              ssrSilentMode
-              touchTracking
-              disableButtonsControls
+            infinite
+            autoWidth
+            autoHeight
+            mouseTracking
+            ssrSilentMode
+            touchTracking
+            disableButtonsControls
           >
             <Skill
               logo={<BsCodeSlash />}
               title="Web Development"
-              desc="Everybody knows HTML, CSS and JavaScript. I also am experienced in libraries like NodeBF, VueBF, NextBF, ofc ReactBF, am practicing React Native, ElectronBF, Firebase, Google Cloud APIs, Blockly, SocketIO, ExpressBF, Tailwind, Material UI, ThreeBF, CannonBF, I can keep going and I am always learning."
+              desc="Everybody knows HTML, CSS and JavaScript. I also am experienced in libraries like Node, Vue, Next, React, React Native, Flutter, Electron, Firebase, Google Cloud APIs, Blockly, SocketIO, Express, Tailwind, Material UI, I can keep going as I am always learning more. The technology used is far less important than the fact that I can quickly pickup any stack or tool when needed and implement the ideas proposed."
             />
             <Skill
               logo={<VscSymbolInterface />}
-              title="UI/UX"
-              desc="This website you see? I designed it by myself. In order to visualize what I am about to code, I normally use Figma or Adobe XD to get a rough idea of how the website is going to look. I have developed and designed websites on Shopify as well!"
+              title="Penetration Testing"
+              desc="I am a highly skilled penetration tester with expertise in various techniques. Famililar with all the latest best tools. I can identify vulnerabilities and misconfigurations in any digital presence and provide a hacker's perspective on blind spots. I am deeply passionate about this field and committed to ethical hacking and security, with plans to continue studying and growing my skills in this field for the rest of my career."
             />
             <Skill
               logo={<GiRobotGolem />}
-              title="Robotics and Programming"
-              desc="In school we were taught Java, and I am honestly pretty good at Data Structures and Algorithms. I also can code in Arduino's so far I have made a car that can be controlled using the WASD keys on my laptop and many other projects that are available on my linkedin!"
+              title="UI/UX"
+              desc="This website here I've spent countless hours crafting, attempting to get right. In order to visualize what I am creating I usually will use Figma to get a rough idea of the final product. I typically spend more time planning to code, and preparing than I do coding. I'll push the limits on UI's with animation libraries. I'm comfterable using Material-UI, Bootstap, Ant-Design or any framework. I can also create without them. SCSS and SASS I find extremely helpful. I'm huge on reading the docs before implementing so when I get to coding out a UI, I know things are stacked in my favor.  "
             />
             <Skill
               logo={<GoTools />}
               title="Other Tools and Softwares"
-              desc="So I know Git, and I am on GitHub, which I'm sure you already know, I am on GitLab as well, although I don't really use that account as much as I do GitHub. I am also familiar with Slack, Trello, and Trello Boards. I am also familiar with Postman, SendGrid and Google Analytics."
+              desc="I have developed a comprehensive understanding of the digital landscape and continually expand my knowledge on a daily basis. I am excited to continue growing and evolving my skills in the future. I'm curious by nature and have used many different types of tools, sometimes only to compare them against eachother. Flutter/Expo, React/Next.js, AWS/Firebase are some examples "
             />
           </AliceCarousel>
         </div>

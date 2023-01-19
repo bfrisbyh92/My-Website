@@ -67,7 +67,7 @@ function DesktopHeader({ isAtTop, currentURL, changeTheme }) {
           <div
             className={`text-3xl my-auto text-lightTextColor dark:text-white`}
           >
-            <Link href="/">JS</Link>
+            <Link href="/">BF</Link>
           </div>
           <div className="h-full w-full max-w-lg lg:max-w-xl flex flex-row justify-between items-center m-auto">
             <DesktopNavLink
@@ -173,7 +173,7 @@ function MobileHeader({ isAtTop, currentURL, changeTheme }) {
           <div
             className={`text-lightTextColor dark:text-white dark:text-white text-3xl md:text-4xl my-auto`}
           >
-            <Link href="/">{isAtTop ? "JS" : "Jaagrav Frisby"}</Link>
+            <Link href="/">{isAtTop ? "BF" : "Jaagrav Frisby"}</Link>
           </div>
           <div
             className="scale-75 origin-right md:scale-100 h-10 w-12 md:w-10 my-auto ml-auto relative"

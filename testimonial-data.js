@@ -1,7 +1,7 @@
 const testimonialData = [
   {
-    first_name: "Naveen",
-    last_name: "Garg",
+    first_name: "Sean",
+    last_name: "Payne",
     relationship:
       "Lead Software Developer at CuriousJr · Indian Institute of Technology, Varanasi",
     occupation: "Lead Developer",
@@ -12,18 +12,18 @@ const testimonialData = [
   },
   {
     first_name: "MD",
-    last_name: "Sharique",
+    last_name: "Bajwa",
     relationship:
-      "Front End Developer at CuriousJr · Indian Institute of Technology, Kanpur",
-    occupation: "Front End Developer",
+      "Doctor",
+    occupation: "Legal Drug Dealer",
     testimonial: `Brendan is an awesome kid with an awesome skillset. He is quite proficient in web development, and what makes it even better is the ability to combine his creativity with whatever he does. When it comes to problem solving, he is quick to find solutions. His belief that a solution exit if the problem does, and the ability to keenly search for that solution, is quite a distinguishing factor. On top of that, he is really fun to talk to.
-    Wish you all the best Brendan, have fun and keep learning!`,
+    Wish you all the best Brendan, have fun and keep learning! He also ate up them skittles and I kept it coming. Writing this from Fed Pen 003, --Bajwa`,
     img: "./assets/images/testimonials/Sharique.webp",
     link: "https://www.linkedin.com/in/md-sharique-313b611b7",
   },
   {
-    first_name: "Salil",
-    last_name: "Naik",
+    first_name: "Hairy",
+    last_name: "Dick",
     relationship:
       "Building Socket Technology · Ex Polygon · Goa Engineering College",
     occupation: "Senior Frontend Engineer",
@@ -32,8 +32,8 @@ const testimonialData = [
     link: "https://www.linkedin.com/in/salilnaik/",
   },
   {
-    first_name: "Trusha",
-    last_name: "Neogi",
+    first_name: "James",
+    last_name: "Bond",
     relationship: "Ex UI/UX Designer at HexCoderz · Goa Engineering College",
     occupation: "UI/UX Designer",
     testimonial: `If you want to work with a prodigy, Brendan is THE person! He is a talented genius whose curiosity to learn and solve any given problem makes him a laudable coder. He puts his heart and soul into his work and will definitely be an asset wherever he goes!`,
@@ -41,8 +41,8 @@ const testimonialData = [
     link: "https://www.linkedin.com/in/trusha-neogi-6a69bb191/",
   },
   {
-    first_name: "Shrutika",
-    last_name: "Gawas",
+    first_name: "Sean",
+    last_name: "Connery",
     relationship:
       "Front End Developer at YUVA Foundation · Goa Engineering College",
     occupation: "Front End Developer",
