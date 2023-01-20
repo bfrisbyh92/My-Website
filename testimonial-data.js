@@ -11,7 +11,7 @@ const testimonialData = [
     link: "https://www.linkedin.com/in/naveengargbhu",
   },
   {
-    first_name: "MD",
+    first_name: "Gurpreet",
     last_name: "Bajwa",
     relationship:
       "Doctor",
