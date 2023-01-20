@@ -32,16 +32,13 @@ export default function Footer() {
           <div className="">
             <div className="">
               <p className="text-lightTextColor dark:text-white text-base leading-10">
-                Monster Monster under my bed, come out and play cause I
+                Feel free to
               </p>
               <h1 className="text-lightTextColor dark:text-white text-5xl mt-2">
-                Need a friend!
+                Reach out
               </h1>
               <p className="text-lightTextColor dark:text-white text-xl leading-10 mt-4">
-                Ever wanna get in touch with me, hire me or just hang out with
-                me? Feel free to contact me any time, it can be by filling a
-                form, emailing me, direct messaging on social media or... Yeah
-                that&apos;s it, don&apos;t ever call me, I hate smart phones.
+                if you want to collaborate, have work, or are in need of anyone with a diverse tech skillset between penetration testing, web and mobile app development, and Python automation scripts. Also open to just networking with other people that have similiar passions.
               </p>
               <div className="flex justify-start items-center gap-6 h-fit mt-6">
                 <Link href="/contact">
@@ -53,7 +50,7 @@ export default function Footer() {
                 </Link>
                 <a
                   className="text-lightTextColor dark:text-white text-3xl w-fit inline "
-                  href="https://github.com/Brendan"
+                  href="https://github.com/bfrisbyh92"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -61,39 +58,39 @@ export default function Footer() {
                 </a>
                 <a
                   className="text-lightTextColor dark:text-white text-3xl w-fit inline "
-                  href="https://linkedin.com/in/Brendan"
+                  href="https://linkedin.com/in/brendan-frisby"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <FiLinkedin />
                 </a>
-                <a
+                {/* <a
                   className="text-lightTextColor dark:text-white text-3xl w-fit inline "
                   href="https://www.youtube.com/c/TheCoders"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <FiYoutube />
-                </a>
-                <a
+                </a> */}
+                {/* <a
                   className="text-lightTextColor dark:text-white text-3xl w-fit inline "
                   href="https://gitlab.com/Brendan"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <FiGitlab />
-                </a>
-                <a
+                </a> */}
+                {/* <a
                   className="text-lightTextColor dark:text-white text-3xl w-fit inline "
                   href="https://twitter.com/xBrendan"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <FiTwitter />
-                </a>
+                </a> */}
                 <a
                   className="text-lightTextColor dark:text-white text-3xl w-fit inline "
-                  href="mailto:contact@Brendan.in"
+                  href="mailto:contact@bfrisbyh92@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -106,14 +103,14 @@ export default function Footer() {
           <div className="text-lightTextColor dark:text-white text-lg text-center pb-6">
             © {new Date().getFullYear()}{" "}
             <a
-              href="https://github.com/Brendan/Brendan"
+              href="https://github.com/bfrisbyh92"
               target="_blank"
               className="transition text-pink dark:text-indigo hover:underline underline-offset-8 text-lg"
               rel="noreferrer"
             >
               Brendan Frisby
             </a>
-            . All this shit is mine.
+            {/* Mine */}
           </div>
         </div>
       </Animatify>

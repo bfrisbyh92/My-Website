@@ -19,10 +19,7 @@ export default function Home() {
     <div className="w-full h-fit ">
       <SEO
         title="Home / Brendan"
-        desc="I am a very nice and humble front-end developer. I can design a
-          website on figma, develop it using NextJS, and deploy it on
-          Vercel. Well that’s what I did for this website, if you want to
-          know more, keep scrolling."
+        desc=""
         img="https://Brendan-2.vercel.app/assets/images/seo/home.webp"
       />
       <HomeHeroSection />
@@ -30,7 +27,7 @@ export default function Home() {
         <GallerySection />
         <SubHeader
           title="Featured Projects"
-          caption="Take a look at these projects I made in the name of Software Development. Honestly I am quite proud how most of them turned out. Most of them are available on Github so go ahead knock yourself out! The others are client/freelance projects."
+          caption="Some of my projects, the ones I'm comfortable enough to share with others. Many React, React-Native, AWS/Firebase, MERN, Or similiar builds. I have now moved more towards coding in Python but I enjoy all types of projects. I'm always working on something."
         />
         <div className="grid grid-cols-1 gap-24">
           {projectData.map((props, index) => {
@@ -39,10 +36,10 @@ export default function Home() {
           })}
         </div>
         <span className="relative z-10 block mx-auto my-16 text-xl text-center text-lightTextColor dark:text-white skew">
-          Wait that’s it?{" "}
+          Where are they?{" "}
           <Link href="/projects">
             <a className="transition text-pink hover:underline underline-offset-8">
-              Can't I just view them all?
+              View Them All Here
             </a>
           </Link>
         </span>
@@ -51,21 +48,21 @@ export default function Home() {
           caption="With a passion for technology and a diverse background in customer service and personal development, I bring a unique perspective to creating innovative and user-friendly digital solutions."
         />
         <ExperienceSection />
-        <span className="relative z-10 block mx-auto my-16 text-xl text-center text-lightTextColor dark:text-white skew">
+        {/* <span className="relative z-10 block mx-auto my-16 text-xl text-center text-lightTextColor dark:text-white skew">
           {"There's more, "}
           <Link href="https://linkedin.com/in/brendan-frisby">
             <a
               target="_blank"
               className="transition text-indigo hover:underline underline-offset-8"
             >
-              click here to find out!
+                Add me on Linkedin.
             </a>
           </Link>
-        </span>
+        </span> */}
         <SubHeader title="Why hire me?" />
         <SkillsSection />
-        <span className="relative z-10 block px-10 mx-auto my-16 text-xl text-center text-lightTextColor dark:text-white md:px-32">
-          {"Give a Like and Follow"}
+        <span className="relative z-10 block px-10 mx-auto my-16 text-xl text-center text-lightTextColor dark:text-black md:px-32">
+          {/* {"Give a Like and Follow"} */}
           <Link href="https://linkedin.com/in/brendan-frisby">
             <a
               className="transition text-indigo hover:underline underline-offset-8"
@@ -74,8 +71,9 @@ export default function Home() {
               LinkedIn
             </a>
           </Link>
-          , do it!
-          {" Also here's my "}
+          {/* , do it! */}
+          {"and"}
+          {/* {" Also here's my "} */}
           <Link href="https://github.com/bfrisbyh92">
             <a
               className="transition text-pink hover:underline underline-offset-8"
@@ -86,18 +84,20 @@ export default function Home() {
           </Link>{" "}
         </span>
         <SubHeader
-          title="People love me, seriously."
-          caption="The word testimonial comes from the latin word testimonium which means a formal statement testifying to someone's character and qualifications. Basically this section highlights some of the beautiful things, people I admire and respect, say about me."
+          // This needs to be changed to a link, and look much better somehow COME BACK
+          title="Some recources of mine..."
+          caption="My Notion page of random informatoin security related. 
+          alwayspwnable.notion.site/My-Hacking-Wiki-1229080c93984d988dfce80eab1bf74b"
         />
         <TestimonialsSection />
         <span className="relative z-10 block mx-auto mt-2 mb-16 text-xl text-center text-lightTextColor dark:text-white skew">
-          {"All of these are totally real, "}
+          {"Linkedin Recommendations"}
           <Link href="https://www.linkedin.com/in/Brendan/details/recommendations/">
             <a
               target="_blank"
               className="transition text-pink hover:underline underline-offset-8"
             >
-              look here for proof.
+              {" "}here.
             </a>
           </Link>{" "}
         </span>
