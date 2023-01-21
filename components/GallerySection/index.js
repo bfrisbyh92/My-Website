@@ -43,7 +43,7 @@ export default function GallerySection() {
             <div
               className="rounded-xl duration-300 bg-black dark:bg-white h-36 md:h-48 w-full bg-120% hover:bg-100% bg-no-repeat bg-center"
               style={{
-                backgroundImage: `url(./assets/images/gallery-section-6.webp)`,
+                backgroundImage: `url(./assets/images/gallery-section-6.png)`,
               }}
             ></div>
           </div>

@@ -12,13 +12,13 @@ export default function Contact() {
     <div className="h-fit w-full">
       <SEO
         title="Contact / Brendan"
-        desc="You got something to say? Feel free to reach out to me, I’ll respond as soon as possible."
+        desc="Feel free to reach out for any reason."
         img="https://Brendan-2.vercel.app/assets/images/seo/contact.webp"
       />
       <Animatify>
         <SubHeader
           title="Contact Me"
-          caption="You got something to say? Feel free to reach out to me, I’ll respond as soon as possible"
+          caption="Feel free to reach out for any reason."
         />
         <div className="px-10 md:px-32 relative z-10">
           <div className="max-w-screen-xl mx-auto">
@@ -75,11 +75,11 @@ export default function Contact() {
           </div>
         </div>
         <div className="text-center">
-          <Link href="mailto:contact@Brendan.in">
+          <Link href="mailto:contact@bfrisbyh92@gmail.com">
             <a target="_blank">
               <div className="mt-12 md:m-auto ">
                 <h1 className="text-border text-[10vw] md:text-[7rem] whitespace-nowrap transition hover:scale-105">
-                  contact@Brendan.in
+                  contact@bfrisbyh92@gmail.com
                 </h1>
               </div>
             </a>
@@ -95,7 +95,7 @@ function ThankYouMessage() {
     <div className="h-fit w-full">
       <SubHeader
         title="Contact Me"
-        caption="You got something to say? Feel free to reach out to me, I’ll respond as soon as possible"
+        caption="Feel free to reach out for any reason."
       />
       <div className="px-10 md:px-32 relative z-10">
         <div className="max-w-screen-xl mx-auto">
@@ -105,7 +105,7 @@ function ThankYouMessage() {
             </h1>
             <div className="text-xl text-white mt-6 max-w-prose mx-auto">
               {
-                "I've received your message, if I don't respond, I might be ignoring you, so expect to receive a response soon."
+                "I've received your message, Thank you and I will get back to you and quickly as I can."
               }
             </div>
           </div>

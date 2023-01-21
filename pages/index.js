@@ -36,7 +36,7 @@ export default function Home() {
           })}
         </div>
         <span className="relative z-10 block mx-auto my-16 text-xl text-center text-lightTextColor dark:text-white skew">
-          Where are they?{" "}
+          Do I have more?{" "}
           <Link href="/projects">
             <a className="transition text-pink hover:underline underline-offset-8">
               View Them All Here
@@ -48,17 +48,17 @@ export default function Home() {
           caption="With a passion for technology and a diverse background in customer service and personal development, I bring a unique perspective to creating innovative and user-friendly digital solutions."
         />
         <ExperienceSection />
-        {/* <span className="relative z-10 block mx-auto my-16 text-xl text-center text-lightTextColor dark:text-white skew">
-          {"There's more, "}
+        <span className="relative z-10 block mx-auto my-16 text-xl text-center text-lightTextColor dark:text-white skew">
+          {/* {"There's more, "} */}
           <Link href="https://linkedin.com/in/brendan-frisby">
             <a
               target="_blank"
               className="transition text-indigo hover:underline underline-offset-8"
             >
-                Add me on Linkedin.
+              Add me on Linkedin.
             </a>
           </Link>
-        </span> */}
+        </span>
         <SubHeader title="Why hire me?" />
         <SkillsSection />
         <span className="relative z-10 block px-10 mx-auto my-16 text-xl text-center text-lightTextColor dark:text-black md:px-32">

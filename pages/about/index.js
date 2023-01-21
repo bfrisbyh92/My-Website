@@ -26,7 +26,7 @@ export default function About() {
             <div className="block md:hidden">
               <div
                 className="relative z-10 bg-contain bg-black bg-no-repeat bg-center w-full h-[50vw]"
-                style={{ backgroundImage: "url(/assets/images/Brendan.webp)" }}
+                style={{ backgroundImage: "url(/assets/images/gallery-section-6.png)" }}
               ></div>
             </div>
             <div className="md:m-auto">
@@ -71,7 +71,7 @@ export default function About() {
         <ExperienceSection />
         <SubHeader
           title="Testimonials"
-          caption="Testimonials from those around me"
+          caption="Testimonials from the community"
         />
         <TestimonialsSection />
         <span className="relative z-10 block mx-auto mt-2 mb-16 text-xl text-center text-lightTextColor dark:text-white skew">

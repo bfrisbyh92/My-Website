@@ -13,7 +13,7 @@ export default function HomeHeroSection() {
   useEffect(() => {
     try {
       canvas = null;
-    } catch (e) {}
+    } catch (e) { }
   }, []);
 
   return (

@@ -173,7 +173,7 @@ function MobileHeader({ isAtTop, currentURL, changeTheme }) {
           <div
             className={`text-lightTextColor dark:text-white dark:text-white text-3xl md:text-4xl my-auto`}
           >
-            <Link href="/">{isAtTop ? "BF" : "Jaagrav Frisby"}</Link>
+            <Link href="/">{isAtTop ? "BF" : "Brendan Frisby"}</Link>
           </div>
           <div
             className="scale-75 origin-right md:scale-100 h-10 w-12 md:w-10 my-auto ml-auto relative"
