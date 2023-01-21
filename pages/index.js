@@ -27,7 +27,7 @@ export default function Home() {
         <GallerySection />
         <SubHeader
           title="Featured Projects"
-          caption="Some of my projects, the ones I'm comfortable enough to share with others. Many React, React-Native, AWS/Firebase, MERN, Or similiar builds. I have now moved more towards coding in Python but I enjoy all types of projects. I'm always working on something."
+          caption="Listed below are some of my projects, the ones I'm comfortable enough to share with others. Many React, React-Native, AWS/Firebase, MERN, or similiar builds. I have now moved more towards coding in Python but I enjoy all types of projects. I'd like to leave my mark on the world somehow. New Python projects will be added soon."
         />
         <div className="grid grid-cols-1 gap-24">
           {projectData.map((props, index) => {
