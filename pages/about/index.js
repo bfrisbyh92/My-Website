@@ -4,13 +4,13 @@ import {
   GallerySection,
   SubHeader,
   SkillsSection,
-  TestimonialsSection,
+  // TestimonialsSection,
   ExperienceSection,
   Animatify,
   SEO, BlogSection,
 } from "../../components";
 import Head from "next/head";
-import SpotifySection from "../../components/SpotifySection";
+// import SpotifySection from "../../components/SpotifySection";
 
 export default function About() {
   return (
@@ -18,7 +18,7 @@ export default function About() {
       <SEO
         title="About / Brendan"
         desc="I am a skilled and versatile professional with a passion for technology. As a web developer and software engineer, I have a deep understanding of the latest technologies and programming languages, and use this knowledge to create innovative and effective solutions for clients. Additionally, as a security analyst and penetration tester, I have a strong understanding of the latest security threats and vulnerabilities and use this knowledge to help organizations protect their systems and data. Overall, my wild curiosity and passion for technology drives me to stay on the cutting edge of the field and deliver the best possible results."
-        img="./assets/images/profile.webp"
+        img="/assets/images/profile.webp"
       />
       <Animatify>
         <div className="px-10 pb-12 md:px-32">
@@ -55,7 +55,7 @@ export default function About() {
             </div>
             <div className="hidden md:block">
               <img
-                src="/assets/images/Brendan.webp"
+                src="/assets/images/gallery-section-6.webp"
                 className="w-full mx-auto shadow-2xl rounded-xl"
               />
             </div>
@@ -66,16 +66,16 @@ export default function About() {
         <SkillsSection />
         <SubHeader
           title="My Experience"
-          caption="With a wild curiousity for all things tech, I found my passion with coding. I started a few years back but it wasn't until I attended General Assembly's Software Engineering Immserive that everything started to click. I've followed that up with the eJPT certification by eLearnSecurity for Penetration Testing. I have many free certifications from FreeCodeCamp/OdinProject on various topics as well. I've devloped a wide range of skills and plan to continue developing that over a lifetime. Next up the OSCP, CEH, and OSWP. Why? Because I love learning and there's nothing I'd rather do."
+          caption="With a wild curiousity for all things tech, I found my passion with coding. I started a few years back but it wasn't until I attended General Assembly's Software Engineering Immserive that everything started to click. I've followed that up with the eJPT certification by eLearnSecurity for Penetration Testing. I have many free certifications from FreeCodeCamp and The Odin Project on various topics as well, while they don't hold much weight some helped immensely during my learning process(Front End Frameworks, Backend Development, Security with Helmet.js, and Solidity Smart Contracts are some that I've finished). I've developed a wide range of skills and plan to continue developing that over a lifetime. Next up the OSCP, CEH, and OSWP. Why? Because I love learning, I'm passionate about this craft."
         />
         <ExperienceSection />
-        <SubHeader
-          title="Testimonials"
-          caption="Testimonials from the community"
-        />
-        <TestimonialsSection />
+        {/* <SubHeader
+          title="Frisby,"
+          caption="Brendan"
+        /> */}
+        {/* <TestimonialsSection /> */}
         <span className="relative z-10 block mx-auto mt-2 mb-16 text-xl text-center text-lightTextColor dark:text-white skew">
-          {"All of these are totally real, "}
+          {"My "}
           <Link href="https://www.linkedin.com/in/brendan-frisby/details/recommendations/">
             <a
               target="_blank"

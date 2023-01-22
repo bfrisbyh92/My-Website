@@ -51,7 +51,7 @@ const projectData = [
     img: "/assets/images/projects/kryptlow.webp",
     seoimg: "/assets/images/projects/kryptlow.webp",
     link: "kryptlow",
-    showOnHome: true,
+    showOnHome: false,
     tech: [
       "React.js",
       "Solidity Smart Contract",
@@ -74,7 +74,7 @@ const projectData = [
     img: "/assets/images/projects/uber.webp",
     seoimg: "/assets/images/projects/uber.webp",
     link: "uber",
-    showOnHome: true,
+    showOnHome: false,
     apiDocs: "https://github.com/bfrisbyh92/uber-clone",
     tech: [
       "React-Native",
@@ -90,7 +90,7 @@ const projectData = [
     desc: "A clone of the passenger-facing Uber app built using React and Redux, for state management. The app is designed using Tailwind for the CSS, and it is configured for both Apple and Android Maps. The app utilizes Google's Autocomplete and Places API for address searches, and Google's Matrix-Distance API to calculate the price and distance between two places. The price and distance calculation is done through Redux. This project is a replica of the Uber app, and it demonstrates the developer's ability to use various technologies, such as Google's APIs, Redux and Tailwind.CSS, to create a functional and visually appealing user interface. I had a great time working on this build and learned a lot. I'm developing a love for React-Native builds as they allow for quick creation of mobile apps on all platforms with tools like Expo or Flutter. It's powerful to be able to code once and have builds produced on web, Android, and Apple from that one codebase. However, like anything, there are advantages and disadvantages to this approach. I use it when it's the right tool for the job and am grateful for its availability.",
   },
   {
-    title: "Deliveroo -- React-Native Mobile App",
+    title: "Deliveroo - React-Native Mobile App",
     miniDesc:
       "I built a food delivery app using React-Native, Redux, Sanity.io, and Tailwind.css. The app allows users to search and select restaurants, build a shopping cart, and request delivery. It has a clean UI and user-friendly experience.",
     website: "https://expo.dev/@bfrisbyh92/deliveroo_Clone?serviceType=classic&distribution=expo-go",
@@ -98,7 +98,7 @@ const projectData = [
     img: "/assets/images/projects/deliveroo.webp",
     seoimg: "/assets/images/projects/deliveroo.webp",
     link: "deliveroo",
-    showOnHome: true,
+    showOnHome: false,
     tech: [
       "React-Native",
       "Expo",
@@ -113,7 +113,7 @@ const projectData = [
   {
     title: "Second Portolio",
     miniDesc:
-    "I created my second portfolio using React, Sanity.io, Font-Awesome, Material-UI and Framer Motion for some advanced animations. This project helped improve my skills using Sanity as a backend and creating a visually pleasing UI.",
+      "I created my second portfolio using React, Sanity.io, Font-Awesome, Material-UI and Framer Motion for some advanced animations. This project helped improve my skills using Sanity as a backend and creating a visually pleasing UI.",
     website: "https://brendanfrisby.netlify.app/",
     github: "https://github.com/bfrisbyh92/frontend_portfolio",
     img: "/assets/images/projects/oldPortfolio.webp",
@@ -129,6 +129,42 @@ const projectData = [
       "Redux",
     ],
     desc: "I created my second portfolio as a project to improve my skills in using Sanity.io and creating a visually pleasing user interface. It was built using React, Sanity.io for the CMS, Font-Awesome, Material-UI and advanced animations. This project was fundamental in helping me better understand how to use Sanity and create a nice UI. I spent a lot of time working on it and I'm proud of the final result. It was a great learning experience and it showcase my abilities in using those technologies.",
+  },
+  {
+    title: "Third Portolio",
+    miniDesc:
+      "This is my Third Portfolio. ",
+    website: "https://brendanhayesfrisby.netlify.app/",
+    github: "https://github.com/bfrisbyh92/2022portfolio",
+    img: "/assets/images/projects/portfolio3.webp",
+    seoimg: "/assets/images/projects/portfolio3.webp",
+    link: "third-portfolio",
+    showOnHome: false,
+    tech: [
+      "React",
+      "Advanced Animations",
+      "Animate CSS",
+      "Bootstrap CDN",
+    ],
+    desc: "My third portfolio, which is quickly switched to another. It was still a fun project to work on and worth a mention.",
+  },
+  {
+    title: "Signal Clone - React-Native Mobile App",
+    miniDesc:
+      "This project is a tutorial that uses Firebase and Expo to create a chat room style mobile app using React-Native. It is different from what was expected when I began the tutorial, as it does not include features such as direct messaging, encryption, and auto-delete timers. However, the project serves as a learning experience for me, I stopped doing tutorials after this. They are only helpful up until a point, and I think I have past that point where I can continue to see them as helpful to me.",
+    website: "https://brendanhayesfrisby.netlify.app/",
+    github: "https://github.com/bfrisbyh92/2022portfolio",
+    img: "/assets/images/projects/signal.png",
+    seoimg: "/assets/images/projects/signal.png",
+    link: "signal-clone",
+    showOnHome: false,
+    tech: [
+      "React",
+      "Advanced Animations",
+      "Animate CSS",
+      "Bootstrap CDN",
+    ],
+    desc: "This project is a tutorial that uses Firebase and Expo to create a chat room style mobile app using React-Native. It is different from what was expected when I began the tutorial, as it does not include features such as direct messaging, encryption, and auto-delete timers. However, the project serves as a learning experience for me, I stopped doing tutorials after this. I have some new Python Projects coming soon, I was busy doing the eJPT certification for 2 months but now that it's over I am preparing some interesting Python scripts and automation tools. Some projects mostly done and will be added soon.",
   },
 ];
 

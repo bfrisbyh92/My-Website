@@ -15,16 +15,16 @@ import NextNProgress from "nextjs-progressbar";
 
 function MyApp({ Component, pageProps }) {
   const setTheme = (theme) => {
-      localStorage.theme = theme;
-      if (localStorage.theme === "dark" || !("theme" in localStorage)) {
-        document.documentElement.classList.add("dark");
-      } else {
-        document.documentElement.classList.remove("dark");
-      }
-    },
+    localStorage.theme = theme;
+    if (localStorage.theme === "dark" || !("theme" in localStorage)) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  },
     changeTheme = () => {
       const prevTheme = localStorage.theme;
-      setTheme(prevTheme === "light" ? "dark" : "light");
+      setTheme(prevTheme === "dark" ? "light" : "dark");
     };
 
   useEffect(() => {

@@ -8,11 +8,11 @@ import {
   ProjectCards,
   ExperienceSection,
   SkillsSection,
-  TestimonialsSection,
+  // TestimonialsSection,
   SEO, BlogSection,
 } from "../components";
 import projectData from "../project-data";
-import SpotifySection from "../components/SpotifySection";
+// import SpotifySection from "../components/SpotifySection";
 
 export default function Home() {
   return (
@@ -20,14 +20,14 @@ export default function Home() {
       <SEO
         title="Home / Brendan"
         desc=""
-        img="https://Brendan-2.vercel.app/assets/images/seo/home.webp"
+        img="assets/images/profile.webp"
       />
       <HomeHeroSection />
       <Animatify>
         <GallerySection />
         <SubHeader
           title="Featured Projects"
-          caption="Listed below are some of my projects, the ones I'm comfortable enough to share with others. Many React, React-Native, AWS/Firebase, MERN, or similiar builds. I have now moved more towards coding in Python but I enjoy all types of projects. I'd like to leave my mark on the world somehow. New Python projects will be added soon."
+          caption="Listed below are some of my projects. Most React, React-Native, Next.js, AWS/Firebase, MERN, or similiar builds. Recently I've been coding more in Python. I'd like to leave my mark on the world somehow and I think tech is my best avenue to accomplish that. I will add some new Python projects soon."
         />
         <div className="grid grid-cols-1 gap-24">
           {projectData.map((props, index) => {
@@ -36,10 +36,10 @@ export default function Home() {
           })}
         </div>
         <span className="relative z-10 block mx-auto my-16 text-xl text-center text-lightTextColor dark:text-white skew">
-          Do I have more?{" "}
+          All my projects{" "}
           <Link href="/projects">
             <a className="transition text-pink hover:underline underline-offset-8">
-              View Them All Here
+              can be viewed here
             </a>
           </Link>
         </span>
@@ -85,11 +85,10 @@ export default function Home() {
         </span>
         <SubHeader
           // This needs to be changed to a link, and look much better somehow COME BACK
-          title="Some recources of mine..."
-          caption="My Notion page of random informatoin security related. 
-          alwayspwnable.notion.site/My-Hacking-Wiki-1229080c93984d988dfce80eab1bf74b"
+          title="My Mission"
+          caption="My missoin is to follow my heart towards what I feel most connected and passionate about which is tech and offensive security. Long term, I dream of being a Penetration Tester, Security Analyst, or Red Teamer. Going back 10 years I was playing around with Kali Linux, didn't know enough to do anything but I tried. Now days I do know how to many things, and my goal is to master them all. I've never aimed to be average in any sense, and the amount of time/dedication I put towards my passion is massive. I'm very humbled and grateful to of found my niche. There is a lifetime of learning to come and I just hope in some way I can make a positive impact with tech."
         />
-        <TestimonialsSection />
+        {/* <TestimonialsSection /> */}
         <span className="relative z-10 block mx-auto mt-2 mb-16 text-xl text-center text-lightTextColor dark:text-white skew">
           {"Linkedin Recommendations"}
           <Link href="https://www.linkedin.com/in/Brendan/details/recommendations/">

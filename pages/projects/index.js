@@ -8,12 +8,12 @@ export default function Projects() {
     <div className="h-fit w-full">
       <SEO
         title="Projects / Brendan"
-        desc="Take a look at these projects I made in the name of Software Development. Honestly I am quite proud how most of them turned out. Most of them are available on Github so go ahead knock yourself out! The others are client/freelance projects."
-        img="https://Brendan-2.vercel.app/assets/images/seo/projects.webp"
+        desc="Listed below are some of my projects. Most React, React-Native, Next.js, AWS/Firebase, MERN, or similiar builds. Recently I've been coding more in Python. I'd like to leave my mark on the world somehow and I think tech is my best avenue to accomplish that. I will add some new Python projects soon."
+        img="assets/images/profile.webp"
       />
       <SubHeader
         title="My Projects"
-        caption="Take a look at these projects I made in the name of Software Development. Honestly I am quite proud how most of them turned out. Most of them are available on Github so go ahead knock yourself out! The others are client/freelance projects."
+        caption="Listed below are some of my projects. Most React, React-Native, Next.js, AWS/Firebase, MERN, or similiar builds. Recently I've been coding more in Python. I'd like to leave my mark on the world somehow and I think tech is my best avenue to accomplish that. I will add some new Python projects soon."
       />
       <div className="grid grid-cols-1 gap-24">
         <Animatify>

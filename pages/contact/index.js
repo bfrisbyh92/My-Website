@@ -13,12 +13,12 @@ export default function Contact() {
       <SEO
         title="Contact / Brendan"
         desc="Feel free to reach out for any reason."
-        img="https://Brendan-2.vercel.app/assets/images/seo/contact.webp"
+        img="assets/images/profile.webp"
       />
       <Animatify>
         <SubHeader
           title="Contact Me"
-          caption="Feel free to reach out for any reason."
+          caption="Feel free to reach out for any reason. I'm always looking to connect with people who have similiar interests. Also always looking for work, leads, freelance jobs, reccommendations for content to cover, opportunity to collaborate, etc. Open door Policy so please reach out!"
         />
         <div className="px-10 md:px-32 relative z-10">
           <div className="max-w-screen-xl mx-auto">
@@ -37,7 +37,7 @@ export default function Contact() {
                 type="email"
                 name="email"
                 className="block w-full text-lightTextColor dark:text-white text-xl p-6 outline-none bg-transparent border-2 border-bgColor dark:border-white my-6 rounded-xl"
-                placeholder="For e.g. BrendanFrisby03@gmail.com"
+                placeholder="For e.g. example@gmail.com"
                 spellCheck={false}
               />
               <ValidationError
@@ -55,7 +55,7 @@ export default function Contact() {
               <textarea
                 id="message"
                 name="message"
-                placeholder="Type a message for e.g. You're hired! We can pay you whatever you want."
+                placeholder="Type a message for e.g. Would you want to collaborate on a project?"
                 className="h-96 block w-full text-lightTextColor dark:text-white text-xl p-6 outline-none bg-transparent border-2 border-bgColor dark:border-white my-6 rounded-xl"
               />
               <ValidationError
@@ -95,7 +95,7 @@ function ThankYouMessage() {
     <div className="h-fit w-full">
       <SubHeader
         title="Contact Me"
-        caption="Feel free to reach out for any reason."
+        caption="Feel free to reach out for any reason. I'm always looking to connect with people who have similiar interests. Also always looking for work, leads, freelance jobs, reccommendations for content to cover, opportunity to collaborate, etc. Open door Policy so please reach out!"
       />
       <div className="px-10 md:px-32 relative z-10">
         <div className="max-w-screen-xl mx-auto">

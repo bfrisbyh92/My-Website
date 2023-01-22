@@ -21,14 +21,14 @@ export default function Page({ project, randomProject }) {
         const githubRepoData = await octokit.request(
           "GET /repos/{username}/{repo}",
           {
-            username: "Brendan",
+            username: "bfrisbyh92",
             repo: project.link,
           }
         );
 
         setStars(githubRepoData.data.stargazers_count);
         setForks(githubRepoData.data.forks_count);
-      } catch (error) {}
+      } catch (error) { }
     };
     getGithubData();
   }, []);
@@ -42,7 +42,7 @@ export default function Page({ project, randomProject }) {
       <Animatify>
         <SubHeader
           title={project.title}
-          // caption={project.miniDesc}
+        // caption={project.miniDesc}
         />
         <div className="px-10 md:px-32">
           <div className="relative z-10 max-w-screen-xl mx-auto">
@@ -146,15 +146,15 @@ export default function Page({ project, randomProject }) {
           </div>
         </div>
         <SubHeader
-          title="Next Project"
-          caption="This is not the only project I made, check out this other project that this page randomly chose for you to see, hope you'll like it. And if you don't go back to the projects page to see all the projects I have built so far."
+          title="Other Projects"
+          caption="I've created this below to reccommend another project of mine at random."
         />
         <ProjectCards {...randomProject} />
         <span className="relative z-10 block text-center mx-auto mt-16 text-lightTextColor dark:text-white text-xl skew">
-          {"There's more, "}
+          {"but if you'd rather just go back to a full list, "}
           <Link href="/projects">
             <a className="transition text-indigo hover:underline underline-offset-8">
-              click here to find out!
+              I have you covered.
             </a>
           </Link>
         </span>
