@@ -1,7 +1,7 @@
 
 # My-Website and Blog
 
-Time Spent working on this project tracked by WakaTime...
+Time Spent working on this project tracked by WakaTime... not sure if it's always right but I attempt to keep track with it.
 
 ## Why?
 - I want one place to put everything of mine
@@ -13,6 +13,4 @@ Time Spent working on this project tracked by WakaTime...
 
 *[html tag]*
 <a href="https://wakatime.com/badge/user/6ae01bc2-dc0f-4962-940e-3692dc2bcc23/project/ebfa8862-718c-4d83-8cf6-0934a8e3d839"><img src="https://wakatime.com/badge/user/6ae01bc2-dc0f-4962-940e-3692dc2bcc23/project/ebfa8862-718c-4d83-8cf6-0934a8e3d839.svg" alt="wakatime"></a>
-
-^^ Are these accurate? I'm not sure. My Wakatime dashboard right now says 5hr 47mins and these badges right now say 3hrs and 45 mins. Same badge. So I'm not sure but I at least attempt to keep track of how much time I spend on things. ^^
 
