@@ -1,7 +1,7 @@
-// import { useState, useEffect } from "react";
-// import { Octokit } from "@octokit/core";
-// import { getGithubContributions } from "github-contributions-counter";
-// import commaNumber from "comma-number";
+import { useState, useEffect } from "react";
+import { Octokit } from "@octokit/core";
+import { getGithubContributions } from "github-contributions-counter";
+import commaNumber from "comma-number";
 
 // I have Github's actions commented out for now, because I know it works 
 // and there is no point in me hitting that API 10000x on reload.
@@ -16,30 +16,30 @@ import { GiRobotGolem } from "react-icons/gi";
 import { GoTools } from "react-icons/go";
 
 export default function SkillsSection() {
-  // const octokit = new Octokit({ auth: process.env.GITHUB_ACCESS_TOKEN });
-  // const [followers, setFollowers] = useState(0),
-  //   [publicRepos, setPublicRepos] = useState(0),
-  //   [totalContributions, setTotalContributions] = useState(0);
+  const octokit = new Octokit({ auth: process.env.GITHUB_ACCESS_TOKEN });
+  const [followers, setFollowers] = useState(0),
+    [publicRepos, setPublicRepos] = useState(0),
+    [totalContributions, setTotalContributions] = useState(0);
 
-  // useEffect(() => {
-  //   const getGithubData = async () => {
-  //     const githubProfile = await octokit.request("GET /users/{username}", {
-  //       username: "bfrisbyh92",
-  //     });
-  //     getGithubContributions({
-  //       username: "bfrisbyh92",
-  //       token: process.env.GITHUB_ACCESS_TOKEN,
-  //     }).then((res) => {
-  //       setTotalContributions(
-  //         res.data.data.user.contributionsCollection.contributionCalendar
-  //           .totalContributions
-  //       );
-  //     });
-  //     setFollowers(githubProfile.data.followers);
-  //     setPublicRepos(githubProfile.data.public_repos);
-  //   };
-  //   getGithubData();
-  // }, []);
+  useEffect(() => {
+    const getGithubData = async () => {
+      const githubProfile = await octokit.request("GET /users/{username}", {
+        username: "bfrisbyh92",
+      });
+      getGithubContributions({
+        username: "bfrisbyh92",
+        token: process.env.GITHUB_ACCESS_TOKEN,
+      }).then((res) => {
+        setTotalContributions(
+          res.data.data.user.contributionsCollection.contributionCalendar
+            .totalContributions
+        );
+      });
+      setFollowers(githubProfile.data.followers);
+      setPublicRepos(githubProfile.data.public_repos);
+    };
+    getGithubData();
+  }, []);
 
   return (
     <div className="px-10 md:px-32 relative z-10 mb-12">
@@ -51,7 +51,7 @@ export default function SkillsSection() {
             }
           </div>
           <div className="flex flex-row justify-center items-center gap-3 h-full">
-            {/* <GithubStats
+            <GithubStats
               number={commaNumber(totalContributions + 3)}
               desc="Commits made last year on Github*"
             />
@@ -64,7 +64,7 @@ export default function SkillsSection() {
             <GithubStats
               number={commaNumber(publicRepos)}
               desc="Public Repositories on Github*"
-            /> */}
+            />
           </div>
           <div className="text-sm text-lightTextColor dark:text-white mt-2 md:mt-0">
             *Data above is current and being pulled from the Github API*{" "}
@@ -120,16 +120,16 @@ export default function SkillsSection() {
   );
 }
 
-// function GithubStats({ number, desc }) {
-//   return (
-//     <div className="flex flex-col items-center justify-center gap-2 w-full">
-//       <div className="text-5xl text-border">{number}</div>
-//       <div className="text-md text-lightTextColor dark:text-white text-center">
-//         {desc}
-//       </div>
-//     </div>
-//   );
-// }
+function GithubStats({ number, desc }) {
+  return (
+    <div className="flex flex-col items-center justify-center gap-2 w-full">
+      <div className="text-5xl text-border">{number}</div>
+      <div className="text-md text-lightTextColor dark:text-white text-center">
+        {desc}
+      </div>
+    </div>
+  );
+}
 
 function Skill({ logo, title, desc }) {
   const Logo = () => logo;
