@@ -80,12 +80,12 @@ function DesktopHeader({ isAtTop, currentURL, changeTheme }) {
               name="Projects"
               currentURL={currentURL}
             />
-            <DesktopNavLink
+            {/* <DesktopNavLink
               href="https://blog.jaagrav.in"
               name="Blog"
               currentURL={currentURL}
               target={'_blank'}
-            />
+            /> */}
             <DesktopNavLink
               href="/about"
               name="About"

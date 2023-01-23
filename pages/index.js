@@ -9,7 +9,8 @@ import {
   ExperienceSection,
   SkillsSection,
   // TestimonialsSection,
-  SEO, BlogSection,
+  //  BlogSection,
+  SEO,
 } from "../components";
 import projectData from "../project-data";
 // import SpotifySection from "../components/SpotifySection";
@@ -101,7 +102,7 @@ export default function Home() {
           </Link>{" "}
         </span>
         {/*<SpotifySection />*/}
-        <BlogSection />
+        {/* <BlogSection /> */}
       </Animatify>
     </div>
   );
