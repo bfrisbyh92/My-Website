@@ -220,12 +220,12 @@ function MobileHeader({ isAtTop, currentURL, changeTheme }) {
               name="Projects"
               currentURL={currentURL}
             />
-            <MobileNavLink
+            {/* <MobileNavLink
                 href="https://blog.jaagrav.in"
                 name="Blog"
                 currentURL={currentURL}
                 target={'_blank'}
-            />
+            /> */}
             <MobileNavLink
               href="/about"
               name="About"

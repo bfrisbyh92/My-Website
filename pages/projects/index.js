@@ -1,4 +1,10 @@
-import { SubHeader, ProjectCards, Animatify, SEO, BlogSection } from "../../components";
+import {
+  SubHeader,
+  ProjectCards,
+  Animatify,
+  SEO,
+  //  BlogSection
+} from "../../components";
 import projectData from "../../project-data";
 import Head from "next/head";
 import Link from "next/link";
@@ -35,8 +41,7 @@ export default function Projects() {
           </Link>
         </span>
       </Animatify>
-      <BlogSection />
-
+      {/* <BlogSection /> */}
     </div>
   );
 }
