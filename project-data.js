@@ -166,6 +166,26 @@ const projectData = [
     ],
     desc: "This project is a tutorial that uses Firebase and Expo to create a chat room style mobile app using React-Native. It is different from what was expected when I began the tutorial, as it does not include features such as direct messaging, encryption, and auto-delete timers. However, the project serves as a learning experience for me, I stopped doing tutorials after this. I have some new Python Projects coming soon, I was busy doing the eJPT certification for 2 months but now that it's over I am preparing some interesting Python scripts and automation tools. Some projects mostly done and will be added soon.",
   },
+  {
+    title: "Python Proxy-Script",
+    miniDesc:
+      "This project is a script I made so I could run it as a cron job on my computer. What is does is curl a list of fresh proxies that are updated multiple times a day from Github. I then use Python to format those proxies and create a proxychains configuration file. The end result is 2 proxychains configuration files, a list of 3,000 socks4/http fresh proxies added to the file, and ready to be used with proxychains. I made this so I never have to manually do that again. I also added some style to the script with Colorama and Pyfiglet packages.",
+    website: "https://github.com/bfrisbyh92/Proxy-Script",
+    github: "https://github.com/bfrisbyh92/Proxy-Script",
+    img: "/assets/images/projects/proxy.png",
+    seoimg: "/assets/images/projects/proxy.png",
+    link: "proxy-script",
+    showOnHome: false,
+    tech: [
+      "Python",
+      "OS",
+      "Subprocesses",
+      "Pip",
+      "Pyfiglet",
+      "Colorama",
+    ],
+    desc: "This project is a script I made so I could run it as a cron job on my computer. What is does is curl a list of fresh proxies that are updated multiple times a day from Github. I then use Python to format those proxies and create a proxychains configuration file. The end result is 2 proxychains configuration files, a list of 3,000 socks4/http fresh proxies added to the file, and ready to be used with proxychains. I made this so I never have to manually do that again. I also added some style to the script with Colorama and Pyfiglet packages. This was a project that evolved naturally over time. It started as a script to format proxies and I would run it daily. It evolved into a learning experience with Python subproccesses. I can't seem to stop messing with and attempting to improve even the smallest of projects. I hope that other people can find a use for scripts like these and in the future they continue to get more advanced.",
+  },
 ];
 
 export default projectData;
