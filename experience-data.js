@@ -12,7 +12,7 @@ var experienceData = [
     date: "2019 - 2022",
     organization: "Sovanah Global Logistics",
     position: "Warehouse Associate",
-    desc: `At Savannah Global Logistics, I worked in their warehouse. Since departing full time work, I still occasionally do work when they need hands. The people there have helped me become who I am today, and will continue to shape me in the future from their impact.`,
+    desc: `At Sovanah Global Logistics, I worked in their warehouse. Since departing full time work, I still occasionally do work when they need hands. The people there have helped me become who I am today, and will continue to shape me in the future from their impact.`,
     website: 'https://app.social3.club'
   },
   {
