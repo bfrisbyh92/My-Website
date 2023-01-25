@@ -42,7 +42,7 @@ export default function BlogSection() {
 
 export function Blog({ file, metadata }) {
     return <div className="w-[36rem] px-10 md:pl-0 md:pr-12">
-        <div><div className='rounded-2xl h-72 w-full bg-cover bg-center' style={{ background: `url('https://blog.jaagrav.in/assets/blogs-media/${file}/thumbnail.webp')` }}></div></div>
+        <div><div className='rounded-2xl h-72 w-full bg-cover bg-center' style={{ background: `url('https://frisbyblog.vercel.app/assets/blogs-media/${file}/thumbnail.webp')` }}></div></div>
         <div>
             <div className="text-3xl font-bold mt-4 text-lightTextColor dark:text-white line-clamp-1">{metadata.title}</div>
             <div className="text-xl mt-4 text-lightTextColor dark:text-white">{metadata.publishedOn} • {metadata.readingTime}</div>
