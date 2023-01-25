@@ -106,7 +106,7 @@ export default function SkillsSection() {
             <Skill
               logo={<GiRobotGolem />}
               title="UI/UX"
-              desc="This website here I've spent countless hours crafting, attempting to get right. In order to visualize what I am creating I usually will use Figma to get a rough idea of the final product. I typically spend more time planning to code, and preparing than I do coding. I'll push the limits on UI's with animation libraries. I'm comfterable using Material-UI, Bootstap, Ant-Design or any framework. I can also create without them. SCSS and SASS I find extremely helpful. I'm huge on reading the docs before implementing so when I get to coding out a UI, I know things are stacked in my favor.  "
+              desc="In order to visualize what I am creating I usually will use Figma to get a rough idea of the final product. I typically spend more time planning to code, and preparing than I do actual coding. I'll push the limits on UI's with animation libraries. I'm comfterable using Material-UI, Bootstap, Ant-Design or any framework that helps a quick production. I can also create without them. SCSS and SASS I find extremely helpful. I'm huge on reading the docs before implementing so when I get to coding out a UI, I know things are stacked in my favor.  "
             />
             <Skill
               logo={<GoTools />}
