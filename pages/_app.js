@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "../styles/globals.css";
+import { AnalyticsWrapper } from '../components/Analytics/index';
 
 // Importing Components
 import { Header, Footer } from "../components";
@@ -94,7 +95,8 @@ function MyApp({ Component, pageProps }) {
         src="/assets/lib/fluid-background.js"
         async
       ></script>
-      <Analytics />
+      <AnalyticsWrapper />
+      {/* <Analytics /> */}
     </div>
   );
 }
