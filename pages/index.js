@@ -87,7 +87,7 @@ export default function Home() {
         <SubHeader
           // This needs to be changed to a link, and look much better somehow COME BACK
           title="My Mission"
-          caption="My missoin is to follow my heart towards what I feel most connected and passionate about which is tech and offensive security. Long term, I dream of being a Penetration Tester, Security Analyst, or Red Teamer. Going back 10 years I was playing around with Kali Linux, didn't know enough to do anything but I tried. Now days I do know how to many things, and my goal is to master them all. I've never aimed to be average in any sense, and the amount of time/dedication I put towards my passion is massive. I'm very humbled and grateful to of found my niche. There is a lifetime of learning to come and I just hope in some way I can make a positive impact with tech."
+          caption="My mission is to follow my heart towards what I feel most connected and passionate about which is offensive security. My final goal is being far along in a red team of similiar role. Going back 10 years I was playing around with Kali Linux, didn't know enough to do anything but I tried. Now days I do know how to many things, and my goal is to master them all. I've never aimed to be average in any sense, and the amount of time/dedication I put towards my passion is massive. I'm very humbled and grateful to of found my niche. There is a lifetime of learning to come and I just hope in some way I can make a positive impact with tech."
         />
         {/* <TestimonialsSection /> */}
         <span className="relative z-10 block mx-auto mt-2 mb-16 text-xl text-center text-lightTextColor dark:text-white skew">
