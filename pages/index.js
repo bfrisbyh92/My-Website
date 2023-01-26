@@ -60,7 +60,7 @@ export default function Home() {
             </a>
           </Link>
         </span>
-        <SubHeader title="Why hire me?" />
+        {/* <SubHeader title="Why hire me?" /> */}
         <SkillsSection />
         <span className="relative z-10 block px-10 mx-auto my-16 text-xl text-center text-lightTextColor dark:text-black md:px-32">
           {/* {"Give a Like and Follow"} */}
