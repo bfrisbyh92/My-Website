@@ -92,7 +92,7 @@ const projectData = [
   {
     title: "Deliveroo - React-Native Mobile App",
     miniDesc:
-      "I built a food delivery app using React-Native, Redux, Sanity.io, and Tailwind.css. The app allows users to search and select restaurants, build a shopping cart, and request delivery. It has a clean UI and user-friendly experience.",
+    "I built a food delivery app using React-Native, Redux, Sanity.io, and Tailwind.css. The app allows users to search and select restaurants, build a shopping cart, and request delivery. It has a clean UI and user-friendly experience.",
     website: "https://expo.dev/@bfrisbyh92/deliveroo_Clone?serviceType=classic&distribution=expo-go",
     github: "https://github.com/bfrisbyh92/food-delivery-app",
     img: "/assets/images/projects/deliveroo.webp",
@@ -109,6 +109,26 @@ const projectData = [
       "Hero-Icons",
     ],
     desc: "I built a food delivery application using React-Native and Redux for state management, as well as Sanity.io for a Content management system. The app's user interface was styled with Tailwind.css and React-Native Elements, creating a visually appealing and easy-to-use experience. Users can search and select a restaurant, build a shopping cart with the items they want, and request a delivery. The app will confirm the order and inform the user that their driver, Brendan, is on the way with their food. Although I'm not actually delivering the food, the app has a beautiful UI and user experience, making it easy and convenient to order food for delivery.",
+  },
+  {
+    title: "ZSH-Configs",
+    miniDesc:
+      "In this project, we will delve into the world of customizing your zsh shell to make it a powerhouse of productivity. By utilizing custom functions, aliases, and various plugins and addons, we can take our zsh experience to the next level. We will explore the different ways in which you can configure your zshrc file to make your life easier. From creating custom functions to streamline repetitive tasks, to using aliases to quickly access frequently used commands, I have a bit of it all in my .zshrc file.",
+    website: "https://github.com/bfrisbyh92/best-zsh-configs",
+    github: "https://github.com/bfrisbyh92/best-zsh-configs",
+    img: "/assets/images/projects/zsh.webp",
+    seoimg: "/assets/images/projects/zsh.webp",
+    link: "zsh-configs",
+    showOnHome: false,
+    tech: [
+      "Python",
+      "OS",
+      "Subprocesses",
+      "Pip",
+      "Crontabs",
+      "Mac OS",
+    ],
+    desc: "In this project, we will delve into the world of customizing your zsh shell to make it a powerhouse of productivity. By utilizing custom functions, aliases, and various plugins and addons, we can take our zsh experience to the next level. We will explore the different ways in which you can configure your zshrc file to make your life easier. From creating custom functions to streamline repetitive tasks, to using aliases to quickly access frequently used commands, I have a bit of it all in my .zshrc file.",
   },
   {
     title: "Second Portolio",
@@ -152,14 +172,14 @@ const projectData = [
     title: "Signal Clone - React-Native Mobile App",
     miniDesc:
       "This project is a tutorial that uses Firebase and Expo to create a chat room style mobile app using React-Native. It is different from what was expected when I began the tutorial, as it does not include features such as direct messaging, encryption, and auto-delete timers. However, the project serves as a learning experience for me, I stopped doing tutorials after this. They are only helpful up until a point, and I think I have past that point where I can continue to see them as helpful to me.",
-    website: "https://brendanhayesfrisby.netlify.app/",
-    github: "https://github.com/bfrisbyh92/2022portfolio",
-    img: "/assets/images/projects/signal.png",
-    seoimg: "/assets/images/projects/signal.png",
-    link: "signal-clone",
-    showOnHome: false,
-    tech: [
-      "React",
+      website: "https://brendanhayesfrisby.netlify.app/",
+      github: "https://github.com/bfrisbyh92/2022portfolio",
+      img: "/assets/images/projects/signal.png",
+      seoimg: "/assets/images/projects/signal.png",
+      link: "signal-clone",
+      showOnHome: false,
+      tech: [
+        "React",
       "Advanced Animations",
       "Animate CSS",
       "Bootstrap CDN",
