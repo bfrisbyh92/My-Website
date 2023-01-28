@@ -154,7 +154,7 @@ export default function Page({ project, randomProject }) {
           {"but if you'd rather just go back to a full list, "}
           <Link href="/projects">
             <a className="transition text-indigo hover:underline underline-offset-8">
-              I have you covered.
+              I have you covered <strong className="text-blue">here.</strong>
             </a>
           </Link>
         </span>

@@ -51,7 +51,7 @@ const projectData = [
     img: "/assets/images/projects/kryptlow.webp",
     seoimg: "/assets/images/projects/kryptlow.webp",
     link: "kryptlow",
-    showOnHome: false,
+    showOnHome: true,
     tech: [
       "React.js",
       "Solidity Smart Contract",
@@ -68,13 +68,13 @@ const projectData = [
   {
     title: "Uber Clone - React Native Mobile App",
     miniDesc:
-      "A clone of the Uber app built with React, Redux, Google's APIs, and Tailwind.CSS. It is configured for both Apple and Android Maps, with features such as address search, distance and price calculation.",
+      "A clone of the Uber app built with React, Redux, Google's API's(Places, Matrix, Autocomplete, and Maps), and Tailwind.CSS. It is configured for both Apple and Android Maps, with features such as address search, distance and price calculation. Almost identical to a 2011 version of Uber app, built for fun and to challenge myself.",
     website: "https://expo.dev/@bfrisbyh92/uber-clone",
     github: "https://github.com/bfrisbyh92/uber-clone",
     img: "/assets/images/projects/uber.webp",
     seoimg: "/assets/images/projects/uber.webp",
     link: "uber",
-    showOnHome: false,
+    showOnHome: true,
     apiDocs: "https://github.com/bfrisbyh92/uber-clone",
     tech: [
       "React-Native",
@@ -92,13 +92,13 @@ const projectData = [
   {
     title: "Deliveroo - React-Native Mobile App",
     miniDesc:
-    "I built a food delivery app using React-Native, Redux, Sanity.io, and Tailwind.css. The app allows users to search and select restaurants, build a shopping cart, and request delivery. It has a clean UI and user-friendly experience.",
+      "I built a food delivery app using React-Native, Redux, Sanity.io, and Tailwind.css. The app allows users to search and select restaurants, build a shopping cart, and request delivery. It has a clean UI and user-friendly experience. I built this after Uber, very similiar and I was able to finish it in 1/4 of the time, honing in on my expo and mobile app dev skills with repitition.",
     website: "https://expo.dev/@bfrisbyh92/deliveroo_Clone?serviceType=classic&distribution=expo-go",
     github: "https://github.com/bfrisbyh92/food-delivery-app",
     img: "/assets/images/projects/deliveroo.webp",
     seoimg: "/assets/images/projects/deliveroo.webp",
     link: "deliveroo",
-    showOnHome: false,
+    showOnHome: true,
     tech: [
       "React-Native",
       "Expo",
@@ -113,13 +113,13 @@ const projectData = [
   {
     title: "ZSH-Configs",
     miniDesc:
-      "In this project, we will delve into the world of customizing your zsh shell to make it a powerhouse of productivity. By utilizing custom functions, aliases, and various plugins and addons, we can take our zsh experience to the next level. We will explore the different ways in which you can configure your zshrc file to make your life easier. From creating custom functions to streamline repetitive tasks, to using aliases to quickly access frequently used commands, I have a bit of it all in my .zshrc file.",
+      "In this project, we will delve into the world of customizing your zsh shell to make it a powerhouse of productivity. By utilizing custom functions, aliases, and various plugins and addons, we can take our zsh experience to the next level.",
     website: "https://github.com/bfrisbyh92/best-zsh-configs",
     github: "https://github.com/bfrisbyh92/best-zsh-configs",
     img: "/assets/images/projects/zsh.webp",
     seoimg: "/assets/images/projects/zsh.webp",
     link: "zsh-configs",
-    showOnHome: false,
+    showOnHome: true,
     tech: [
       "Python",
       "OS",
@@ -128,7 +128,7 @@ const projectData = [
       "Crontabs",
       "Mac OS",
     ],
-    desc: "In this project, we will delve into the world of customizing your zsh shell to make it a powerhouse of productivity. By utilizing custom functions, aliases, and various plugins and addons, we can take our zsh experience to the next level. We will explore the different ways in which you can configure your zshrc file to make your life easier. From creating custom functions to streamline repetitive tasks, to using aliases to quickly access frequently used commands, I have a bit of it all in my .zshrc file.",
+    desc: "In this project, we will delve into the world of customizing your zsh shell to make it a powerhouse of productivity. By utilizing custom functions, aliases, and various plugins and addons, we can take our zsh experience to the next level. We will explore the different ways in which you can configure your zshrc file to make your life easier. From creating custom functions to streamline repetitive tasks, to using aliases to quickly access frequently used commands, I have a bit of it all in my .zshrc file and I've added it to github in order to share it with others. I have custom functions built in to alter wordlists, format proxy lists, and anything else I do often that I think is helpful. ",
   },
   {
     title: "Second Portolio",
@@ -139,7 +139,7 @@ const projectData = [
     img: "/assets/images/projects/oldPortfolio.webp",
     seoimg: "/assets/images/projects/oldPortfolio.webp",
     link: "second-portfolio",
-    showOnHome: true,
+    showOnHome: false,
     tech: [
       "React",
       "Sanity.io CMS",
@@ -172,14 +172,14 @@ const projectData = [
     title: "Signal Clone - React-Native Mobile App",
     miniDesc:
       "This project is a tutorial that uses Firebase and Expo to create a chat room style mobile app using React-Native. It is different from what was expected when I began the tutorial, as it does not include features such as direct messaging, encryption, and auto-delete timers. However, the project serves as a learning experience for me, I stopped doing tutorials after this. They are only helpful up until a point, and I think I have past that point where I can continue to see them as helpful to me.",
-      website: "https://brendanhayesfrisby.netlify.app/",
-      github: "https://github.com/bfrisbyh92/2022portfolio",
-      img: "/assets/images/projects/signal.png",
-      seoimg: "/assets/images/projects/signal.png",
-      link: "signal-clone",
-      showOnHome: false,
-      tech: [
-        "React",
+    website: "https://brendanhayesfrisby.netlify.app/",
+    github: "https://github.com/bfrisbyh92/2022portfolio",
+    img: "/assets/images/projects/signal.png",
+    seoimg: "/assets/images/projects/signal.png",
+    link: "signal-clone",
+    showOnHome: false,
+    tech: [
+      "React",
       "Advanced Animations",
       "Animate CSS",
       "Bootstrap CDN",
@@ -195,7 +195,7 @@ const projectData = [
     img: "/assets/images/projects/proxy.png",
     seoimg: "/assets/images/projects/proxy.png",
     link: "proxy-script",
-    showOnHome: false,
+    showOnHome: true,
     tech: [
       "Python",
       "OS",

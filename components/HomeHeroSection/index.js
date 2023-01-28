@@ -39,28 +39,30 @@ export default function HomeHeroSection() {
             <span className="m-auto block text-2xl md:text-xl text-lightTextColor dark:text-white md:text-center">
               Hi {"I'm "}
               <span
-                title="This is not a link fool."
+                title="This is not a link dawgg."
                 className="underline underline-offset-8 pointer-events-auto cursor-pointer text-pink dark:text-blue"
               >
                 Brendan Frisby
               </span>
             </span>
             <span className="md:leading-[9rem] mb-6 block text-[13vw] sm:text-[7rem] text-lightTextColor dark:text-white md:text-center font-secondary max-w-[100vw] md:max-w-[80rem]">
-              Building Websites, Mobile Apps, Interfaces & Experiences
+              Engineer, Developer, Security Analyst
             </span>
             <span className="md:m-auto block text-lightTextColor dark:text-white text-2xl md:text-xl leading-10 md:text-center max-w-xl my-4">
               I am a{" "}
               <span
-                title="Still not a link."
+                title="A butterfly in the process of metamorphosis, while it is in its cocoon, is called a pupa."
                 className="pointer-events-auto cursor-pointer text-pink dark:text-blue"
-              >
-                Full Stack Developer
+                >
+              Penetration Tester
               </span>{" "}/{" "}
               <span
-                title="Still not a link."
                 className="pointer-events-auto cursor-pointer text-pink dark:text-blue"
-              >
-                Penetration Tester
+                title="Okay, now I'm a butterfly."
+                >
+                  <a href="https://brendanfrisby.live">
+                Full Stack Developer
+                  </a>
               </span>{" "}
               by profession, and a learner by passion.
             </span>
