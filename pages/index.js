@@ -28,7 +28,7 @@ export default function Home() {
         <GallerySection />
         <SubHeader
           title="Featured Projects"
-          caption="Listed below are some of my projects. Most React, React-Native, Next.js, AWS/Firebase, MERN, or similiar builds. Recently I've been coding more in Python. I'd like to leave my mark on the world somehow and I think tech is my best avenue to accomplish that. I will add some new Python projects soon."
+          caption="Listed below are some of my projects. Most React, React-Native, Next.js, AWS/Firebase, MERN, or similiar builds. Recently I've been coding more in Python and C++. I will always add more over time."
         />
         <div className="grid grid-cols-1 gap-24">
           {projectData.map((props, index) => {
@@ -46,7 +46,7 @@ export default function Home() {
         </span>
         <SubHeader
           title="My Experience"
-          caption="With a passion for technology and a diverse background in customer service and personal development, I bring a unique perspective to creating innovative and user-friendly digital solutions."
+          // caption="With a passion for technology and a diverse background in customer service and personal development, I bring a unique perspective to creating innovative and user-friendly digital solutions."
         />
         <ExperienceSection />
         <span className="relative z-10 block mx-auto my-16 text-xl text-center text-lightTextColor dark:text-white skew">

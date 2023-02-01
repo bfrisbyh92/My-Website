@@ -96,17 +96,17 @@ export default function SkillsSection() {
             <Skill
               logo={<BsCodeSlash />}
               title="Web Development"
-              desc="Everybody knows HTML, CSS and JavaScript. I also am experienced in libraries like Node, Vue, Next, React, React Native, Flutter, Electron, Firebase, Google Cloud APIs, Blockly, SocketIO, Express, Tailwind, Material UI, I can keep going as I am always learning more. The technology used is far less important than the fact that I can quickly pickup any stack or tool when needed and implement the ideas proposed."
+              desc="I'm familiar with HTML, CSS and JavaScript. I also am experienced in libraries like Node, Vue, Next, React, React Native, Flutter, Electron, Firebase, Google Cloud APIs, Blockly, SocketIO, Express, Tailwind, Material UI, and it's always growing. The technology used is far less important than the fact that I can quickly pickup any stack or tool when needed and implement the ideas proposed."
             />
             <Skill
               logo={<VscSymbolInterface />}
               title="Penetration Testing"
-              desc="I am a highly skilled penetration tester with expertise in various techniques. Famililar with all the latest best tools. I can identify vulnerabilities and misconfigurations in any digital presence and provide a hacker's perspective on blind spots. I am deeply passionate about this field and committed to ethical hacking and security, with plans to continue studying and growing my skills in this field for the rest of my career."
+              desc="I am a skilled penetration tester with expertise in various techniques. Famililar with all the latest best tools. I can identify vulnerabilities and misconfigurations in any digital presence and provide a hacker's perspective on blind spots. I am deeply passionate about this field and committed to ethical hacking and security, with plans to continue studying and growing my skills in this field for the rest of my career."
             />
             <Skill
               logo={<GiRobotGolem />}
               title="UI/UX"
-              desc="In order to visualize what I am creating I usually will use Figma to get a rough idea of the final product. I typically spend more time planning to code, and preparing than I do actual coding. I'll push the limits on UI's with animation libraries. I'm comfterable using Material-UI, Bootstap, Ant-Design or any framework that helps a quick production. I can also create without them. SCSS and SASS I find extremely helpful. I'm huge on reading the docs before implementing so when I get to coding out a UI, I know things are stacked in my favor.  "
+              desc="I usually will use Figma to get a rough idea of the final product. I typically spend more time planning to code, and preparing than I do actual coding. I'll push the limits on UI's with animation libraries. I'm comfterable using Material-UI, Bootstap, Ant-Design or any framework that helps a quick production. I can also create without them. SCSS and SASS I find extremely helpful. I'm huge on reading the docs before implementing so when I get to the coding portion of a UI, I know things are stacked in my favor.  "
             />
             <Skill
               logo={<GoTools />}

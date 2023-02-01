@@ -24,7 +24,7 @@ const projectData = [
   },
   {
     title: "GoodTimes - MERN Social Media App",
-    miniDesc: "MERN social media app with full CRUD, pagination, authentication, authorization using JSON web tokens and Material UI CSS. Built from scratch using MERN stack and clocked over 55 hours inside VScode over about 30 days.(Tracked with WakaTime).",
+    miniDesc: "MERN social media app with full CRUD, pagination, authentication, authorization using JSON web tokens and Material UI CSS. Built using MERN stack and clocked over 55 hours inside VScode over about 30 days.(Tracked with WakaTime).",
     website: "https://goodtimes7.netlify.app/",
     github: "https://github.com/bfrisbyh92/GoodTimes",
     img: "/assets/images/projects/goodtimes.webp",
@@ -41,7 +41,7 @@ const projectData = [
       "Social Logins",
       "Axios",
     ],
-    desc: "A social media application for sharing good moments built using the MERN stack, which allows users to perform full CRUD operations on posts, including likes, comments, edits, and deletions. The app includes pagination, authentication and authorization using JSON web tokens, and a Material-UI for CSS. The project was tracked using VScode/WakaTime and took over 55 hours, roughly 30 days, to complete. The goal of this project was to build a fully functional social media app from scratch using the MERN stack, as opposed to relying on cloud-based services like Firebase or AWS. The objective was to challenge myself to create the same functionality from scratch and I am proud of completing it. It was a great opportunity for growth and learning, as I had never worked with authorization or JSON web tokens at the time of creation.",
+    desc: "A social media application for sharing good moments built using the MERN stack, which allows users to perform full CRUD operations on posts, including likes, comments, edits, and deletions. The app includes pagination, authentication and authorization using JSON web tokens, and a Material-UI for CSS. The project was tracked using VScode/WakaTime and took over 55 hours, roughly 30 days, to complete. The goal of this project was to build a fully functional social media app using the MERN stack, as opposed to relying on cloud-based services like Firebase or AWS. The objective was to challenge myself to create the same functionality and I am proud of completing it. It was a great opportunity for growth and learning, as I had never worked with authorization or JSON web tokens at the time of creation.",
   },
   {
     title: "Kryptlow - Solidity Smart Contract",
@@ -51,7 +51,7 @@ const projectData = [
     img: "/assets/images/projects/kryptlow.webp",
     seoimg: "/assets/images/projects/kryptlow.webp",
     link: "kryptlow",
-    showOnHome: true,
+    showOnHome: false,
     tech: [
       "React.js",
       "Solidity Smart Contract",
@@ -63,7 +63,7 @@ const projectData = [
       "Axios",
       "React-Multi-Carousel",
     ],
-    desc: "A React-based Web3 application that connects to the Ethereum blockchain through a Solidity smart contract, allowing users to interact with the blockchain. The app is designed with Tailwind for the CSS and allows users to send a GIPHY along with their crypto transactions, which are then stored on the blockchain. This is achieved by pulling GIFs from the GIPHY API. The app was built on the Rinkeby test network, but can also be used on other networks. This project was created for fun in June 2022 just to explore a bit of the Web3 area as it's a large interest of mine. It was fun learning how to write a Solidity smart contract and seeing that execute, I consider that something I can now cross off my bucket list.(Wrote a working Ethereum Smart Contract, while small and was relatively easy is a win. I like celebrating all the W's your's and mine.). Outside of that this app doesn't have much functionality, it was a project for learning, a tutorial project and served it's purpose.",
+    desc: "A React-based Web3 application that connects to the Ethereum blockchain through a Solidity smart contract, allowing users to interact with the blockchain. The app is designed with Tailwind for the CSS and allows users to send a GIPHY along with their crypto transactions, which are then stored on the blockchain. This is achieved by pulling GIFs from the GIPHY API. The app was built on the Rinkeby test network, but can also be used on other networks. This project was created for fun in June 2022 just to explore a bit of the Web3. It was a tutorial project, but still fun learning how to write a Solidity smart contract and seeing that execute. Outside of that this app doesn't have much functionality, it was a project for learning, a tutorial project and served it's purpose.",
   },
   {
     title: "Uber Clone - React Native Mobile App",
@@ -74,7 +74,7 @@ const projectData = [
     img: "/assets/images/projects/uber.webp",
     seoimg: "/assets/images/projects/uber.webp",
     link: "uber",
-    showOnHome: true,
+    showOnHome: false,
     apiDocs: "https://github.com/bfrisbyh92/uber-clone",
     tech: [
       "React-Native",
@@ -90,15 +90,35 @@ const projectData = [
     desc: "A clone of the passenger-facing Uber app built using React and Redux, for state management. The app is designed using Tailwind for the CSS, and it is configured for both Apple and Android Maps. The app utilizes Google's Autocomplete and Places API for address searches, and Google's Matrix-Distance API to calculate the price and distance between two places. The price and distance calculation is done through Redux. This project is a replica of the Uber app, and it demonstrates the developer's ability to use various technologies, such as Google's APIs, Redux and Tailwind.CSS, to create a functional and visually appealing user interface. I had a great time working on this build and learned a lot. I'm developing a love for React-Native builds as they allow for quick creation of mobile apps on all platforms with tools like Expo or Flutter. It's powerful to be able to code once and have builds produced on web, Android, and Apple from that one codebase. However, like anything, there are advantages and disadvantages to this approach. I use it when it's the right tool for the job and am grateful for its availability.",
   },
   {
+    title: "Python Proxy-Script",
+    miniDesc:
+      "This project is a script I made so I could run it as a cron job on my computer. What is does is curl a list of fresh proxies that are updated multiple times a day from Github. I then use Python to format those proxies and create a proxychains configuration file. The end result is 2 proxychains configuration files, a list of 3,000 socks4/http fresh proxies added to the file, and ready to be used with proxychains. I made this so I never have to manually do that again. I also added some style to the script with Colorama and Pyfiglet packages.",
+    website: "https://github.com/bfrisbyh92/Proxy-Script",
+    github: "https://github.com/bfrisbyh92/Proxy-Script",
+    img: "/assets/images/projects/proxy.png",
+    seoimg: "/assets/images/projects/proxy.png",
+    link: "proxy-script",
+    showOnHome: true,
+    tech: [
+      "Python",
+      "OS",
+      "Subprocesses",
+      "Pip",
+      "Pyfiglet",
+      "Colorama",
+    ],
+    desc: "This project is a script I made so I could run it as a cron job on my computer. What is does is curl a list of fresh proxies that are updated multiple times a day from Github. I then use Python to format those proxies and create a proxychains configuration file. The end result is 2 proxychains configuration files, a list of 3,000 socks4/http fresh proxies added to the file, and ready to be used with proxychains. I made this so I never have to manually do that again. I also added some style to the script with Colorama and Pyfiglet packages. This was a project that evolved naturally over time. It started as a script to format proxies and I would run it when I needed. I added some style and packaged it up because it's useful.",
+  },
+  {
     title: "Deliveroo - React-Native Mobile App",
     miniDesc:
-      "I built a food delivery app using React-Native, Redux, Sanity.io, and Tailwind.css. The app allows users to search and select restaurants, build a shopping cart, and request delivery. It has a clean UI and user-friendly experience. I built this after Uber, very similiar and I was able to finish it in 1/4 of the time, honing in on my expo and mobile app dev skills with repitition.",
+      "I built a food delivery app using React-Native, Redux, Sanity.io, and Tailwind.css. The app allows users to search and select restaurants, build a shopping cart, and request delivery. It has a clean UI and user-friendly experience. I built this after Uber, very similiar and it was a quick project.",
     website: "https://expo.dev/@bfrisbyh92/deliveroo_Clone?serviceType=classic&distribution=expo-go",
     github: "https://github.com/bfrisbyh92/food-delivery-app",
     img: "/assets/images/projects/deliveroo.webp",
     seoimg: "/assets/images/projects/deliveroo.webp",
     link: "deliveroo",
-    showOnHome: true,
+    showOnHome: false,
     tech: [
       "React-Native",
       "Expo",
@@ -108,18 +128,18 @@ const projectData = [
       "React-Native-Elements",
       "Hero-Icons",
     ],
-    desc: "I built a food delivery application using React-Native and Redux for state management, as well as Sanity.io for a Content management system. The app's user interface was styled with Tailwind.css and React-Native Elements, creating a visually appealing and easy-to-use experience. Users can search and select a restaurant, build a shopping cart with the items they want, and request a delivery. The app will confirm the order and inform the user that their driver, Brendan, is on the way with their food. Although I'm not actually delivering the food, the app has a beautiful UI and user experience, making it easy and convenient to order food for delivery.",
+    desc: "I built a food delivery application using React-Native and Redux for state management, as well as Sanity.io for a Content management system. The app's user interface was styled with Tailwind.css and React-Native Elements, creating a visually appealing and easy-to-use experience. Users can search and select a restaurant, build a shopping cart with the items they want, and request a delivery.",
   },
   {
     title: "ZSH-Configs",
     miniDesc:
-      "In this project, we will delve into the world of customizing your zsh shell to make it a powerhouse of productivity. By utilizing custom functions, aliases, and various plugins and addons, we can take our zsh experience to the next level.",
+      "This is just my ZSH config file, shared on Github. It just has custom aliases, functions, mac networking, a ton of plugins, add-ons, etc. It's always changing.",
     website: "https://github.com/bfrisbyh92/best-zsh-configs",
     github: "https://github.com/bfrisbyh92/best-zsh-configs",
     img: "/assets/images/projects/zsh.webp",
     seoimg: "/assets/images/projects/zsh.webp",
     link: "zsh-configs",
-    showOnHome: true,
+    showOnHome: false,
     tech: [
       "Python",
       "OS",
@@ -128,7 +148,7 @@ const projectData = [
       "Crontabs",
       "Mac OS",
     ],
-    desc: "In this project, we will delve into the world of customizing your zsh shell to make it a powerhouse of productivity. By utilizing custom functions, aliases, and various plugins and addons, we can take our zsh experience to the next level. We will explore the different ways in which you can configure your zshrc file to make your life easier. From creating custom functions to streamline repetitive tasks, to using aliases to quickly access frequently used commands, I have a bit of it all in my .zshrc file and I've added it to github in order to share it with others. I have custom functions built in to alter wordlists, format proxy lists, and anything else I do often that I think is helpful. ",
+    desc: "This is just my ZSH config file, shared on Github. It just has custom aliases, functions, mac networking, a ton of plugins, add-ons, etc. It's always changing.",
   },
   {
     title: "Second Portolio",
@@ -185,26 +205,6 @@ const projectData = [
       "Bootstrap CDN",
     ],
     desc: "This project is a tutorial that uses Firebase and Expo to create a chat room style mobile app using React-Native. It is different from what was expected when I began the tutorial, as it does not include features such as direct messaging, encryption, and auto-delete timers. However, the project serves as a learning experience for me, I stopped doing tutorials after this. I have some new Python Projects coming soon, I was busy doing the eJPT certification for 2 months but now that it's over I am preparing some interesting Python scripts and automation tools. Some projects mostly done and will be added soon.",
-  },
-  {
-    title: "Python Proxy-Script",
-    miniDesc:
-      "This project is a script I made so I could run it as a cron job on my computer. What is does is curl a list of fresh proxies that are updated multiple times a day from Github. I then use Python to format those proxies and create a proxychains configuration file. The end result is 2 proxychains configuration files, a list of 3,000 socks4/http fresh proxies added to the file, and ready to be used with proxychains. I made this so I never have to manually do that again. I also added some style to the script with Colorama and Pyfiglet packages.",
-    website: "https://github.com/bfrisbyh92/Proxy-Script",
-    github: "https://github.com/bfrisbyh92/Proxy-Script",
-    img: "/assets/images/projects/proxy.png",
-    seoimg: "/assets/images/projects/proxy.png",
-    link: "proxy-script",
-    showOnHome: true,
-    tech: [
-      "Python",
-      "OS",
-      "Subprocesses",
-      "Pip",
-      "Pyfiglet",
-      "Colorama",
-    ],
-    desc: "This project is a script I made so I could run it as a cron job on my computer. What is does is curl a list of fresh proxies that are updated multiple times a day from Github. I then use Python to format those proxies and create a proxychains configuration file. The end result is 2 proxychains configuration files, a list of 3,000 socks4/http fresh proxies added to the file, and ready to be used with proxychains. I made this so I never have to manually do that again. I also added some style to the script with Colorama and Pyfiglet packages. This was a project that evolved naturally over time. It started as a script to format proxies and I would run it daily. It evolved into a learning experience with Python subproccesses. I can't seem to stop messing with and attempting to improve even the smallest of projects. I hope that other people can find a use for scripts like these and in the future they continue to get more advanced.",
   },
 ];
 

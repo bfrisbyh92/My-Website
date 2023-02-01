@@ -147,14 +147,14 @@ export default function Page({ project, randomProject }) {
         </div>
         <SubHeader
           title="Other Projects"
-          caption="I've created this below to reccommend another project of mine at random."
+          caption="Another project at random below."
         />
         <ProjectCards {...randomProject} />
         <span className="relative z-10 block text-center mx-auto mt-16 text-lightTextColor dark:text-white text-xl skew">
-          {"but if you'd rather just go back to a full list, "}
+          {"full"}
           <Link href="/projects">
             <a className="transition text-indigo hover:underline underline-offset-8">
-              I have you covered <strong className="text-blue">here.</strong>
+              <strong className="text-blue">list</strong>
             </a>
           </Link>
         </span>
