@@ -43,7 +43,7 @@ export default function About() {
                   Brendan Frisby
                 </h1>
                 <span className="block mt-8 text-xl leading-10 text-lightTextColor dark:text-white">
-                  I am a {new Date().getFullYear() - 1993}  year old highly skilled and versatile professional with a passion for technology. As a web developer and software engineer, I have a decent understanding of the latest technologies and programming languages, and use this knowledge to create innovative and effective solutions for clients. Additionally, as a security analyst and penetration tester, I have a strong understanding of the latest security threats and vulnerabilities and use this knowledge to help protect systems and data. Overall, my curiosity and passion for technology drives me to stay on the edge of the field.
+                  I am a {new Date().getFullYear() - 1993}  year old skilled and versatile professional with a passion for technology. As a web developer and software engineer, I have a decent understanding of the latest technologies and programming languages, and use this knowledge to create innovative and effective solutions. Additionally, as a security analyst and penetration tester, I have a strong understanding of the latest security threats and vulnerabilities and use this knowledge to help protect systems and data. Overall, my curiosity and passion for technology drives me to stay on the edge of the field.
                 </span>
                 <Link href="/resume">
                   <a
