@@ -101,17 +101,17 @@ export default function SkillsSection() {
             <Skill
               logo={<VscSymbolInterface />}
               title="Penetration Testing"
-              desc="I am a skilled penetration tester with expertise in various techniques. Famililar with all the latest best tools. I can identify vulnerabilities and misconfigurations in any digital presence and provide a hacker's perspective on blind spots. I am deeply passionate about this field and committed to ethical hacking and security, with plans to continue studying and growing my skills in this field for the rest of my career."
+              desc="I am a skilled in Information Gathering, Vulnerability Scanning, Exploitation, Post-Exploitation, and Reporting. I am Famililar with all the latest and best tools. I can also accomplish all the same tasks as common tools within my own Python code. I can identify vulnerabilities and misconfigurations in any digital presence and provide a hacker's perspective on blind spots. I am deeply passionate about this field and committed to ethical hacking and security, with plans to continue studying and growing my skills in this field for the rest of my career."
             />
             <Skill
               logo={<GiRobotGolem />}
               title="UI/UX"
-              desc="I usually will use Figma to get a rough idea of the final product. I typically spend more time planning to code, and preparing than I do actual coding. I'll push the limits on UI's with animation libraries. I'm comfterable using Material-UI, Bootstap, Ant-Design or any framework that helps a quick production. I can also create without them. SCSS and SASS I find extremely helpful. I'm huge on reading the docs before implementing so when I get to the coding portion of a UI, I know things are stacked in my favor.  "
+              desc="I usually will use Figma to get a rough idea of the final product. I typically spend more time planning to code, and preparing than I do actual coding. I'll push the limits on UI's with animation libraries. I'm comfortable using Material-UI, Bootstap, Ant-Design or any framework that helps a quick production. I can also create without them. SCSS and SASS I find extremely helpful. I'm huge on reading the docs before implementing so when I get to the coding portion of a UI, I know things are stacked in my favor as tech tends to change quickly.  "
             />
             <Skill
               logo={<GoTools />}
               title="Other Tools and Softwares"
-              desc="I have developed a comprehensive understanding of the digital landscape and continually expand my knowledge on a daily basis. I am excited to continue growing and evolving my skills in the future. I'm curious by nature and have used many different types of tools, sometimes only to compare them against eachother. Flutter/Expo, React/Next.js, AWS/Firebase are some examples "
+              desc="I have developed a comprehensive understanding of the digital landscape and continually expand my knowledge on a daily basis. I am excited to continue growing and evolving my skills in the future. I'm curious by nature and have used many different types of tools, sometimes only to compare them against eachother. Flutter/Expo, React/Next.js, AWS/Firebase, OSWAP/Burp, GoBuster/Dirb/DirSearch are some examples "
             />
           </AliceCarousel>
         </div>
