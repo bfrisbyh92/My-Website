@@ -51,7 +51,7 @@ const projectData = [
     img: "/assets/images/projects/kryptlow.webp",
     seoimg: "/assets/images/projects/kryptlow.webp",
     link: "kryptlow",
-    showOnHome: false,
+    showOnHome: true,
     tech: [
       "React.js",
       "Solidity Smart Contract",
@@ -74,7 +74,7 @@ const projectData = [
     img: "/assets/images/projects/uber.webp",
     seoimg: "/assets/images/projects/uber.webp",
     link: "uber",
-    showOnHome: false,
+    showOnHome: true,
     apiDocs: "https://github.com/bfrisbyh92/uber-clone",
     tech: [
       "React-Native",
@@ -205,6 +205,27 @@ const projectData = [
       "Bootstrap CDN",
     ],
     desc: "This project is a tutorial that uses Firebase and Expo to create a chat room style mobile app using React-Native. It is different from what was expected when I began the tutorial, as it does not include features such as direct messaging, encryption, and auto-delete timers. However, the project serves as a learning experience for me, I stopped doing tutorials after this. I have some new Python Projects coming soon, I was busy doing the eJPT certification for 2 months but now that it's over I am preparing some interesting Python scripts and automation tools. Some projects mostly done and will be added soon.",
+  },
+  {
+    title: "Scapy HTTP Sniffer",
+    miniDesc:
+      "This is a project I created, along with a few other Scapy, Python, Networking, and Ethical Hacking type of scripts. One goal of mine is to never rely on prebuilt tools 100% for my tasks. What this Python script does is Sniff any HTTP requests on your network, and display them in full. It can catch cookies, passwords, usernames, emails, or anything within any request. It uses Colorama to Colorize the output of requests between red and green. You can also use the arp-spoofing script attached to this in order to poison the arp caches of targets on your network, after starting the arp spoofer you can then run my HTTP sniffing script in parallel and catch not only your own HTTP traffic but whoever is being arp poisoned on the network.",
+    website: "https://github.com/bfrisbyh92/scapy-http-sniffer",
+    github: "https://github.com/bfrisbyh92/scapy-http-sniffer",
+    img: "/assets/images/projects/http-sniffer.png",
+    seoimg: "/assets/images/projects/http-sniffer.png",
+    link: "scapy-http-sniffer",
+    showOnHome: false,
+    tech: [
+      "Python",
+      "Scapy",
+      "Networking",
+      "Pip",
+      "Colorama",
+      "HTTP Req/Res"
+    ],
+          
+    desc: "This project, along with several other scripts related to Scapy, Python, Networking, and Ethical Hacking, has been created by me. My aim is to always have full control over my code and gain a deeper understanding of the tasks I'm accomplishing by avoiding the use of pre-built tools. The Python script captures and displays all HTTP requests made on your network. It's capable of intercepting sensitive information such as cookies, passwords, usernames, emails, and any other data contained in the request. The output is color-coded using Colorama, with red and green indicating the type of request. Additionally, an arp-spoofing script can be used in conjunction with this script to spoof the ARP caches of nearby targets. Once the ARP spoofer is active, the HTTP sniffing script can not only capture your own HTTP traffic but also that of the targets who are being ARP poisoned on the network.",
   },
 ];
 
