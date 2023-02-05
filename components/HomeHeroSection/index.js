@@ -21,13 +21,13 @@ export default function HomeHeroSection() {
       <div
         className="h-full w-full absolute bg-center bg-no-repeat bg-cover transition dark:duration-300 opacity-0 dark:opacity-100"
         style={{
-          backgroundImage: `url(./assets/images/hero-section-bg-dark.webp)`,
+          backgroundImage: `url(./assets/images/bg.webp)`,
         }}
       ></div>
       <div
         className="h-full w-full absolute bg-center bg-no-repeat bg-cover transition dark:duration-300 dark:opacity-0 opacity-100"
         style={{
-          backgroundImage: `url(./assets/images/hero-section-bg-light.webp)`,
+          backgroundImage: `url(./assets/images/bg.webp)`,
         }}
       ></div>
       <canvas className="h-full w-full absolute" id="liquid-canvas"></canvas>

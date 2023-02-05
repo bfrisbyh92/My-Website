@@ -60,6 +60,7 @@ export default function PageTransition() {
         className="absolute m-auto inset-0 -translate-x-1/4 dark:opacity-60 dark:hidden pointer-events-none"
       />
       <img
+              // src="/assets/images/bg.webp"
         src="/assets/images/blur-ball-orange.webp"
         className="absolute m-auto inset-0 -translate-x-1/4 dark:opacity-60 dark:block hidden pointer-events-none"
       />
