@@ -224,9 +224,26 @@ const projectData = [
       "Colorama",
       "HTTP Req/Res"
     ],
+  //   {
+  //   title: "Scapy Network Usage Monitor",
+  //   miniDesc:
+  //     "Scapy is a powerful and flexible Python library for analyzing and manipulating network packets. I made this project using Scapy to monitor network upload and download speed, and used Colorama to color code the output. The project was simple and short, but I plan to expand it and integrate multiple Scapy scripts into a single project in the future.",
+  //   website: "https://github.com/bfrisbyh92/scapy-network-usage",
+  //   github: "https://github.com/bfrisbyh92/scapy-network-usage",
+  //   // img: "/assets/images/projects/http-sniffer.png",
+  //   // seoimg: "/assets/images/projects/http-sniffer.png",
+  //   link: "scapy-network-usage",
+  //   showOnHome: false,
+  //   tech: [
+  //     "Python",
+  //     "Scapy",
+  //     "Networking",
+  //     "Pip",
+  //     "Colorama",
+  //   ],
           
-    desc: "This project, along with several other scripts related to Scapy, Python, Networking, and Ethical Hacking, has been created by me. My aim is to always have full control over my code and gain a deeper understanding of the tasks I'm accomplishing by avoiding the use of pre-built tools. The Python script captures and displays all HTTP requests made on your network. It's capable of intercepting sensitive information such as cookies, passwords, usernames, emails, and any other data contained in the request. The output is color-coded using Colorama, with red and green indicating the type of request. Additionally, an arp-spoofing script can be used in conjunction with this script to spoof the ARP caches of nearby targets. Once the ARP spoofer is active, the HTTP sniffing script can not only capture your own HTTP traffic but also that of the targets who are being ARP poisoned on the network.",
-  },
+  //   desc: "Scapy is a powerful and flexible Python library for analyzing and manipulating network packets. I made this project using Scapy to monitor network upload and download speed, and used Colorama to color code the output. The project was simple and short, but I plan to expand it and integrate multiple Scapy scripts into a single project in the future.",
+  // },
 ];
 
 export default projectData;
