@@ -206,44 +206,6 @@ const projectData = [
     ],
     desc: "This project is a tutorial that uses Firebase and Expo to create a chat room style mobile app using React-Native. It is different from what was expected when I began the tutorial, as it does not include features such as direct messaging, encryption, and auto-delete timers. However, the project serves as a learning experience for me, I stopped doing tutorials after this. I have some new Python Projects coming soon, I was busy doing the eJPT certification for 2 months but now that it's over I am preparing some interesting Python scripts and automation tools. Some projects mostly done and will be added soon.",
   },
-  {
-    title: "Scapy HTTP Sniffer",
-    miniDesc:
-      "This is a project I created, along with a few other Scapy, Python, Networking, and Ethical Hacking type of scripts. One goal of mine is to never rely on prebuilt tools 100% for my tasks. What this Python script does is Sniff any HTTP requests on your network, and display them in full. It can catch cookies, passwords, usernames, emails, or anything within any request. It uses Colorama to Colorize the output of requests between red and green. You can also use the arp-spoofing script attached to this in order to poison the arp caches of targets on your network, after starting the arp spoofer you can then run my HTTP sniffing script in parallel and catch not only your own HTTP traffic but whoever is being arp poisoned on the network.",
-    website: "https://github.com/bfrisbyh92/scapy-http-sniffer",
-    github: "https://github.com/bfrisbyh92/scapy-http-sniffer",
-    // img: "/assets/images/projects/http-sniffer.png",
-    // seoimg: "/assets/images/projects/http-sniffer.png",
-    link: "scapy-http-sniffer",
-    showOnHome: false,
-    tech: [
-      "Python",
-      "Scapy",
-      "Networking",
-      "Pip",
-      "Colorama",
-      "HTTP Req/Res"
-    ],
-  //   {
-  //   title: "Scapy Network Usage Monitor",
-  //   miniDesc:
-  //     "Scapy is a powerful and flexible Python library for analyzing and manipulating network packets. I made this project using Scapy to monitor network upload and download speed, and used Colorama to color code the output. The project was simple and short, but I plan to expand it and integrate multiple Scapy scripts into a single project in the future.",
-  //   website: "https://github.com/bfrisbyh92/scapy-network-usage",
-  //   github: "https://github.com/bfrisbyh92/scapy-network-usage",
-  //   // img: "/assets/images/projects/http-sniffer.png",
-  //   // seoimg: "/assets/images/projects/http-sniffer.png",
-  //   link: "scapy-network-usage",
-  //   showOnHome: false,
-  //   tech: [
-  //     "Python",
-  //     "Scapy",
-  //     "Networking",
-  //     "Pip",
-  //     "Colorama",
-  //   ],
-          
-  //   desc: "Scapy is a powerful and flexible Python library for analyzing and manipulating network packets. I made this project using Scapy to monitor network upload and download speed, and used Colorama to color code the output. The project was simple and short, but I plan to expand it and integrate multiple Scapy scripts into a single project in the future.",
-  // },
 ];
 
 export default projectData;
