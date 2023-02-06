@@ -212,8 +212,8 @@ const projectData = [
       "This is a project I created, along with a few other Scapy, Python, Networking, and Ethical Hacking type of scripts. One goal of mine is to never rely on prebuilt tools 100% for my tasks. What this Python script does is Sniff any HTTP requests on your network, and display them in full. It can catch cookies, passwords, usernames, emails, or anything within any request. It uses Colorama to Colorize the output of requests between red and green. You can also use the arp-spoofing script attached to this in order to poison the arp caches of targets on your network, after starting the arp spoofer you can then run my HTTP sniffing script in parallel and catch not only your own HTTP traffic but whoever is being arp poisoned on the network.",
     website: "https://github.com/bfrisbyh92/scapy-http-sniffer",
     github: "https://github.com/bfrisbyh92/scapy-http-sniffer",
-    img: "/assets/images/projects/http-sniffer.png",
-    seoimg: "/assets/images/projects/http-sniffer.png",
+    // img: "/assets/images/projects/http-sniffer.png",
+    // seoimg: "/assets/images/projects/http-sniffer.png",
     link: "scapy-http-sniffer",
     showOnHome: false,
     tech: [
