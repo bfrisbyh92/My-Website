@@ -151,7 +151,7 @@ const projectData = [
     desc: "This is just my ZSH config file, shared on Github. It just has custom aliases, functions, mac networking, a ton of plugins, add-ons, etc. It's always changing.",
   },
   {
-    title: "Second Portolio",
+    title: "Portolio2",
     miniDesc:
       "I created my second portfolio using React, Sanity.io, Font-Awesome, Material-UI and Framer Motion for some advanced animations. This project helped improve my skills using Sanity as a backend and creating a visually pleasing UI.",
     website: "https://brendanfrisby.netlify.app/",
@@ -171,9 +171,9 @@ const projectData = [
     desc: "I created my second portfolio as a project to improve my skills in using Sanity.io and creating a visually pleasing user interface. It was built using React, Sanity.io for the CMS, Font-Awesome, Material-UI and advanced animations. This project was fundamental in helping me better understand how to use Sanity and create a nice UI. I spent a lot of time working on it and I'm proud of the final result. It was a great learning experience and it showcase my abilities in using those technologies.",
   },
   {
-    title: "Third Portolio",
+    title: "Portolio3",
     miniDesc:
-      "This is my Third Portfolio. ",
+      "Third Portfolio. ",
     website: "https://brendanhayesfrisby.netlify.app/",
     github: "https://github.com/bfrisbyh92/2022portfolio",
     img: "/assets/images/projects/portfolio3.webp",
