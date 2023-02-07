@@ -39,7 +39,7 @@ export default function HomeHeroSection() {
             <span className="m-auto block text-2xl md:text-xl text-white md:text-center">
               Hi {"I'm "}
               <span
-                title="This is not a link dawgg."
+                title="This is not a link."
                 className="underline underline-offset-8 pointer-events-auto cursor-pointer text-pink dark:text-blue"
               >
                 Brendan Frisby
@@ -51,14 +51,14 @@ export default function HomeHeroSection() {
             <span className="md:m-auto block text-white text-2xl md:text-xl leading-10 md:text-center max-w-xl my-4">
               I am a{" "}
               <span
-                title="A butterfly in the process of metamorphosis, while it is in its cocoon, is called a pupa."
+                title="Not a link either."
                 className="pointer-events-auto cursor-pointer text-pink dark:text-blue"
                 >
               Penetration Tester
               </span>{" "}/{" "}
               <span
                 className="pointer-events-auto cursor-pointer text-pink dark:text-blue"
-                title="Okay, now I'm a butterfly."
+                title="Link, true but only to this same page."
                 >
                   <a href="https://brendanfrisby.live">
                 Full Stack Developer
