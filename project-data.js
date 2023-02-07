@@ -51,7 +51,7 @@ const projectData = [
     img: "/assets/images/projects/kryptlow.webp",
     seoimg: "/assets/images/projects/kryptlow.webp",
     link: "kryptlow",
-    showOnHome: true,
+    showOnHome: false,
     tech: [
       "React.js",
       "Solidity Smart Contract",
@@ -98,7 +98,7 @@ const projectData = [
     img: "/assets/images/projects/proxy.png",
     seoimg: "/assets/images/projects/proxy.png",
     link: "proxy-script",
-    showOnHome: true,
+    showOnHome: false,
     tech: [
       "Python",
       "OS",
