@@ -166,7 +166,7 @@ function MobileHeader({ isAtTop, currentURL, changeTheme }) {
       >
         <div className="grid grid-cols-2 h-full">
           <div
-            className={`text-lightTextColor dark:text-white dark:text-white text-3xl md:text-4xl my-auto`}
+            className={`text-white dark:text-white text-3xl md:text-4xl my-auto`}
           >
             <Link href="/">{isAtTop ? "BF" : "Brendan Frisby"}</Link>
           </div>

@@ -68,7 +68,7 @@ export default function HomeHeroSection() {
             </span>
             <div className="flex justify-center items-center gap-6 mt-8">
               <a
-                className="text-lightTextColor dark:text-white text-4xl md:text-2xl w-fit inline pointer-events-auto"
+                className="text-white text-4xl md:text-2xl w-fit inline pointer-events-auto"
                 href="https://github.com/bfrisbyh92"
                 target="_blank"
                 rel="noreferrer"
@@ -76,7 +76,7 @@ export default function HomeHeroSection() {
                 <FiGithub />
               </a>
               <a
-                className="text-lightTextColor dark:text-white text-4xl md:text-2xl w-fit inline pointer-events-auto"
+                className="text-white text-4xl md:text-2xl w-fit inline pointer-events-auto"
                 href="https://linkedin.com/in/brendan-frisby"
                 target="_blank"
                 rel="noreferrer"
@@ -84,7 +84,7 @@ export default function HomeHeroSection() {
                 <FiLinkedin />
               </a>
               <a
-                className="text-lightTextColor dark:text-white text-4xl md:text-2xl w-fit inline pointer-events-auto"
+                className="text-white text-4xl md:text-2xl w-fit inline pointer-events-auto"
                 href="mailto:contact@bfrisbyh92@gmail.com"
                 target="_blank"
                 rel="noreferrer"
