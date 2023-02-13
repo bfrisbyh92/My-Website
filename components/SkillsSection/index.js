@@ -70,7 +70,7 @@ export default function SkillsSection() {
             *Data above is current and being pulled from the Github API*{" "}
           </div>
           <div>
-            <div className="text-3xl text-lightTextColor dark:text-white">
+            {/* <div className="text-3xl text-lightTextColor dark:text-white">
               {"Book a 30-min private event with me."}
             </div>
             <Link href={"https://calendly.com/frisby/30min"}>
@@ -80,7 +80,7 @@ export default function SkillsSection() {
               >
                 Schedule event
               </a>
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className="h-full w-full bg-lightBgSecondaryColor dark:bg-bgSecondaryColor rounded-xl overflow-hidden pb-6">
