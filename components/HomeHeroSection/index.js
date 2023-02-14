@@ -39,31 +39,35 @@ export default function HomeHeroSection() {
             <span className="m-auto block text-2xl md:text-xl text-white md:text-center">
               Hi {"I'm "}
               <span
-                title="This is not a link."
+                title="Inception - Logic"
                 className="underline underline-offset-8 pointer-events-auto cursor-pointer text-pink dark:text-blue"
               >
-                Brendan Frisby
+                <a target="_blank" href="https://www.youtube.com/watch?v=kjidGmro6Mw">
+                  Brendan Frisby
+                </a>
               </span>
             </span>
             <span className="md:leading-[9rem] mb-6 block text-[13vw] sm:text-[7rem] text-white  md:text-center font-secondary max-w-[100vw] md:max-w-[80rem]">
-             Developer, Engineer & Penetration Tester
+              Developer, Engineer & Penetration Tester
               {/* Engineer, Developer, Security Analyst */}
             </span>
             <span className="md:m-auto block text-white text-2xl md:text-xl leading-10 md:text-center max-w-xl my-4">
               I am a{" "}
               <span
-                title="Not a link either."
+                title="Life I Choose - Bazanji"
                 className="pointer-events-auto cursor-pointer text-pink dark:text-blue"
-                >
-              Penetration Tester
+              >
+                <a target="_blank" href="https://www.youtube.com/watch?v=Yll5F0kEZxU&list=PL76bFu4732qjArtLq9jQU-QRWRtliEfZ0&index=123">
+                  Penetration Tester
+                </a>
               </span>{" "}/{" "}
               <span
                 className="pointer-events-auto cursor-pointer text-pink dark:text-blue"
-                title="Link, true but only to this same page."
-                >
-                  <a href="https://brendanfrisby.live">
-                Full Stack Developer
-                  </a>
+                title="Just Another Day - Logic"
+              >
+                <a target="_blank" href="https://www.youtube.com/watch?v=w9JP5jTDWvU">
+                  Full Stack Developer
+                </a>
               </span>{" "}
               by profession, and a learner by passion.
             </span>
