@@ -9,7 +9,7 @@ import { Header, Footer } from "../components";
 import { ScrollerMotion, useScrollerMotion } from "scroller-motion";
 import { useMotionValue } from "framer-motion";
 
-import { PageTransition, Analytics } from "../components";
+import { PageTransition /*, Analytics */ } from "../components";
 
 import { PageTransition as Transition } from "next-page-transitions";
 
