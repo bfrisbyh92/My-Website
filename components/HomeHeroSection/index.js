@@ -63,11 +63,11 @@ export default function HomeHeroSection() {
               </span>{" "}/{" "}
               <span
                 className="pointer-events-auto cursor-pointer text-pink dark:text-blue"
-                title="Just Another Day - Logic"
+                // title="Just Another Day - Logic"
               >
-                <a target="_blank" href="https://www.youtube.com/watch?v=w9JP5jTDWvU">
+                {/* <a target="_blank" href="https://www.youtube.com/watch?v=w9JP5jTDWvU"> */}
                   Full Stack Developer
-                </a>
+                {/* </a> */}
               </span>{" "}
               by profession, and a learner by passion.
             </span>
