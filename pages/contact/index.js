@@ -4,7 +4,7 @@ import Head from "next/head";
 import Link from "next/link";
 
 export default function Contact() {
-  const [state, handleSubmit] = useForm("mwkyravz");
+  const [state, handleSubmit] = useForm("moqzeopd");
   if (state.succeeded) {
     return <ThankYouMessage />;
   }
