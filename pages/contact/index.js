@@ -55,7 +55,7 @@ export default function Contact() {
               <textarea
                 id="message"
                 name="message"
-                placeholder="Type a message for e.g. Would you want to collaborate on a project?"
+                placeholder="Type a message...."
                 className="h-96 block w-full text-lightTextColor dark:text-white text-xl p-6 outline-none bg-transparent border-2 border-bgColor dark:border-white my-6 rounded-xl"
               />
               <ValidationError
