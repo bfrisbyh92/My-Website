@@ -19,7 +19,7 @@ export default function BlogSection() {
     return <div>
         <SubHeader
             title="My Blog"
-            caption="I enjoy writing, sharing information, and most importantly learning from others. I find good information from others Blogs and saw it was possible for me to document my own learning."
+            caption="I enjoy writing, sharing information, and learning from others. I find good information from others Blogs and saw it was possible for me to document my own learning."
         />
         <div className="skew relative z-10 h-fit md:px-32">
             <div className='max-w-screen-xl mx-auto'>
