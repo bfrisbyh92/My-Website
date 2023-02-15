@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import "../styles/globals.css";
-// import { AnalyticsWrapper } from '../components/Analytics/index';
 import { Analytics } from '@vercel/analytics/react';
 
 // Importing Components
@@ -96,7 +95,6 @@ function MyApp({ Component, pageProps }) {
         src="/assets/lib/fluid-background.js"
         async
       ></script>
-      {/* <AnalyticsWrapper /> */}
       <Analytics />
     </div>
   );
