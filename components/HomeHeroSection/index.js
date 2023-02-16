@@ -39,7 +39,7 @@ export default function HomeHeroSection() {
             <span className="m-auto block text-2xl md:text-xl text-white md:text-center">
               Hi {"I'm "}
               <span
-                title="Inception - Logic"
+                title="Inception"
                 className="underline underline-offset-8 pointer-events-auto cursor-pointer text-pink dark:text-blue"
               >
                 <a target="_blank" href="https://www.youtube.com/watch?v=kjidGmro6Mw">
@@ -65,9 +65,9 @@ export default function HomeHeroSection() {
                 className="pointer-events-auto cursor-pointer text-pink dark:text-blue"
                 // title="Just Another Day - Logic"
               >
-                {/* <a target="_blank" href="https://www.youtube.com/watch?v=w9JP5jTDWvU"> */}
+                <a target="_blank" href="https://www.youtube.com/watch?v=zejw053ASmc&list=RDMMZLX-GY0dJgc&index=4">
                   Full Stack Developer
-                {/* </a> */}
+                </a>
               </span>{" "}
               by profession, and a learner by passion.
             </span>

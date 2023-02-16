@@ -110,7 +110,9 @@ export default function Footer() {
             >
               Brendan Frisby
             </a>
-            {/* Mine */}
+            <a href="https://www.youtube.com/watch?v=0HhXp1B3HtA" target="_blank">
+              ...
+            </a>
           </div>
         </div>
       </Animatify>

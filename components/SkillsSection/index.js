@@ -101,7 +101,7 @@ export default function SkillsSection() {
             <Skill
               logo={<VscSymbolInterface />}
               title="Penetration Testing"
-              desc="I am a skilled in Information Gathering, Vulnerability Scanning, Exploitation, Post-Exploitation, and Reporting. I am Famililar with all the latest and best tools. I can also accomplish all the same tasks as common tools within my own Python code. I can identify vulnerabilities and misconfigurations in any digital presence and provide a hacker's perspective on blind spots. I am deeply passionate about this field and committed to ethical hacking and security, with plans to continue studying and growing my skills in this field for the rest of my career."
+              desc="I am a skilled in Information Gathering, Vulnerability Scanning, Exploitation, Post-Exploitation, and Reporting. I am Famililar with all the latest and best tools. I can also accomplish all the same tasks as common tools within my own Python code. I can identify vulnerabilities and misconfigurations in any digital presence and provide a hacker's perspective on blind spots. I am deeply passionate about this field and committed to ethical hacking and security."
             />
             <Skill
               logo={<GiRobotGolem />}
