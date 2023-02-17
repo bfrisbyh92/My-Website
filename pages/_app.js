@@ -101,3 +101,12 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
+
+
+// Saved in case I find a way to add it with some top margin.
+{/* <SubHeader
+  className="mt-25"
+  // This needs to be changed to a link, and look much better somehow COME BACK
+  title="My Mission"
+  caption="My mission is to follow my heart towards what I feel most connected and passionate about which is cyber security. My final goal is being far along in a red team, blue team, or similiar role. Going back to age 12 I was playing around with Kali/Parrot Linux, didn't know enough to do anything at all. The interest was there but it would be years before I really persued learning. Now days I know how to many things like web development, mobile app development, penetration testing networks/apps, python automation scripts, and my goal is to master the ones I've found to be most fulfilling. I've never aimed to be average, and the amount of time/dedication I put towards my passion is intentionally massive. I'm very humbled and grateful to of found my niche. There is a lifetime of learning to come and I just hope in some way I can make a positive impact with tech."
+/> */}

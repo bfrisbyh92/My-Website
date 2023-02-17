@@ -30,12 +30,6 @@ export default function Home() {
           title="Featured Projects"
           caption="Listed below are some of my projects. Most React, React-Native, Next.js, AWS/Firebase, MERN, or similiar builds. Recently I've been coding more in Python and C++. I will always add more over time."
         />
-        <div className="grid grid-cols-1 gap-24">
-          {projectData.map((props, index) => {
-            if (props.showOnHome)
-              return <ProjectCards key={`project-card-${index}`} {...props} />;
-          })}
-        </div>
         <span className="relative z-10 block mx-auto my-16 text-xl text-center text-lightTextColor dark:text-white skew">
           All my projects{" "}
           <Link href="/projects">
@@ -44,6 +38,18 @@ export default function Home() {
             </a>
           </Link>
         </span>
+        <div className="grid grid-cols-1 gap-24">
+          {projectData.map((props, index) => {
+            if (props.showOnHome)
+            return <ProjectCards key={`project-card-${index}`} {...props} />;
+          })}
+        </div>
+        {/* <SubHeader
+          className="mt-25"
+          // This needs to be changed to a link, and look much better somehow COME BACK
+          title="My Mission"
+          caption="My mission is to follow my heart towards what I feel most connected and passionate about which is cyber security. My final goal is being far along in a red team, blue team, or similiar role. Going back to age 12 I was playing around with Kali/Parrot Linux, didn't know enough to do anything at all. The interest was there but it would be years before I really persued learning. Now days I know how to many things like web development, mobile app development, penetration testing networks/apps, python automation scripts, and my goal is to master the ones I've found to be most fulfilling. I've never aimed to be average, and the amount of time/dedication I put towards my passion is intentionally massive. I'm very humbled and grateful to of found my niche. There is a lifetime of learning to come and I just hope in some way I can make a positive impact with tech."
+        /> */}
         <SubHeader
           title="My Experience"
           // caption="With a passion for technology and a diverse background in customer service and personal development, I bring a unique perspective to creating innovative and user-friendly digital solutions."
@@ -64,31 +70,26 @@ export default function Home() {
         <SkillsSection />
         <span className="relative z-10 block px-10 mx-auto my-16 text-xl text-center text-lightTextColor dark:text-black md:px-32">
           {/* {"Give a Like and Follow"} */}
-          <Link href="https://linkedin.com/in/brendan-frisby">
+          {/* <Link href="https://linkedin.com/in/brendan-frisby">
             <a
               className="transition text-indigo hover:underline underline-offset-8"
               target="_blank"
             >
               LinkedIn
             </a>
-          </Link>
+          </Link> */}
           {/* , do it! */}
-          {"and"}
+          {/* {"and"} */}
           {/* {" Also here's my "} */}
-          <Link href="https://github.com/bfrisbyh92">
+          {/* <Link href="https://github.com/bfrisbyh92">
             <a
               className="transition text-pink hover:underline underline-offset-8"
               target="_blank"
             >
               GitHub
             </a>
-          </Link>{" "}
+          </Link>{" "} */}
         </span>
-        <SubHeader
-          // This needs to be changed to a link, and look much better somehow COME BACK
-          title="My Mission"
-          caption="My mission is to follow my heart towards what I feel most connected and passionate about which is cyber security. My final goal is being far along in a red team, blue team, or similiar role. Going back to age 12 I was playing around with Kali/Parrot Linux, didn't know enough to do anything at all. The interest was there but it would be years before I really persued learning. Now days I know how to many things like web development, mobile app development, penetration testing networks/apps, python automation scripts, and my goal is to master the ones I've found to be most fulfilling. I've never aimed to be average, and the amount of time/dedication I put towards my passion is intentionally massive. I'm very humbled and grateful to of found my niche. There is a lifetime of learning to come and I just hope in some way I can make a positive impact with tech."
-        />
         {/* <TestimonialsSection /> */}
         <span className="relative z-10 block mx-auto mt-2 mb-16 text-xl text-center text-lightTextColor dark:text-white skew">
           {"Linkedin Recommendations"}
