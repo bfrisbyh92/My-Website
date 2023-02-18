@@ -23,6 +23,28 @@ const projectData = [
     desc: "CoinHub is a React-based crypto price tracking application that allows users to track the prices of various cryptocurrencies. The application pulls data from the CoinGecko API and uses Chart.js to create various charts that display the price data over different time periods, such as 24 hours, 30 days, 6 months, and 1 year. These charts are similar to those found on popular crypto exchanges like Coinbase. The application also includes a watch list feature that allows users to add or remove coins from their list, and Firebase's Firestore is used to save these lists. Additionally, CoinHub includes email/password authentication as well as social login options for user convenience.",
   },
   {
+    title: "Python-GTK Form Cracker",
+    miniDesc:
+      "This was an off the cuff cyber security / development project I created recently. I've been researching Python GTK's and creating small windows, buttons, etc. It evolved into a learning process, creating a Python GTK that compiles a few inputs from the user for a command in Hydra. Once submitted with the correct values, this will automate the process of password cracking with Hydra. This is based on the idea of the current Hydra-GTK. This was a purely my own, quick, non-tutorial project. I plan to continue working on it adding some style, getting the output to display in GTK instead of terminal, and adding more options. I also plan to add more similiar projects, maybe with some Scapy networking options, like a Bettercap replacement.",
+    website: "https://github.com/bfrisbyh92/pythonGTK-form-cracker",
+    github: "https://github.com/bfrisbyh92/pythonGTK-form-cracker",
+    img: "/assets/images/projects/pythonGTK2.png",
+    seoimg: "/assets/images/projects/pythonGTK2.png",
+    link: "python-gtk",
+    showOnHome: true,
+    tech: [
+      "Python",
+      "GTK-3.0",
+      "CSS",
+      "Subprocesses",
+      "Hydra",
+      "Multiple Protocols",
+      "Password Cracker",
+      "Form Cracking GUI",
+    ],
+    desc: "This was an off the cuff cyber security / development project I created recently. I've been researching Python GTK's and creating small windows, buttons, etc. It evolved into a learning process, creating a Python GTK that compiles a few inputs from the user for a command in Hydra. Once submitted with the correct values, this will automate the process of password cracking with Hydra. This is based on the idea of the current Hydra-GTK. This was a purely my own, quick, non-tutorial project. I plan to continue working on it, add some style, and get the output in the GTK. I also plan to add more similiar projects, maybe with some Scapy networking options, like a Bettercap replacement.",
+  },
+  {
     title: "GoodTimes - MERN Social Media App",
     miniDesc: "MERN social media app with full CRUD, pagination, authentication, authorization using JSON web tokens and Material UI CSS. Built using MERN stack and clocked over 55 hours inside VScode over about 30 days.(Tracked with WakaTime).",
     website: "https://goodtimes7.netlify.app/",
