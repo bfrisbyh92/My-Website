@@ -24,8 +24,7 @@ const projectData = [
   },
   {
     title: "Python-GTK Form Cracker",
-    miniDesc:
-      "This was an off the cuff cyber security / development project I created recently. I created a Python GTK that compiles a few inputs from the user for a command in Hydra. Once submitted with the correct values, this will automate the process of password cracking with Hydra. This is based on the idea of the current Hydra-GTK. This was a purely my own, quick, non-tutorial project. I plan to continue working on it adding some style, getting the output to display in GTK instead of terminal, and adding more options. It's a work in progress.",
+    miniDesc: "Python GTK 3.0 GUI application that uses subprocesses and Hydra on the command line to automate password cracking. Can be ran on any service, and just needs a few inputs in the GUI. Right now output is in terminal, will switch to inside GTK and add style soon.",
     website: "https://github.com/bfrisbyh92/pythonGTK-form-cracker",
     github: "https://github.com/bfrisbyh92/pythonGTK-form-cracker",
     img: "/assets/images/projects/pythonGTK2.png",
@@ -42,7 +41,7 @@ const projectData = [
       "Password Cracker",
       "Form Cracking GUI",
     ],
-    desc: "This was an off the cuff cyber security / development project I created recently. It started just to see if I could, so I created a Python GTK that compiles a few inputs from the user for a command in Hydra. Once submitted with the correct values, this will automate the process of password cracking with Hydra. This is based on the idea of the current Hydra-GTK. This was a purely my own, quick, non-tutorial project. I plan to continue working on it, add some style, and get the output in the GTK instead of terminal. It's a work in progress.",
+    desc: "Python GTK 3.0 GUI application that uses subprocesses and Hydra on the command line to automate password cracking. Can be ran on any service, and just needs a few inputs in the GUI. Right now output is in terminal, will switch to inside GTK and add style soon.",
   },
   {
     title: "GoodTimes - MERN Social Media App",
