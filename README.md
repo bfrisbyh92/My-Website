@@ -10,9 +10,6 @@ Time Spent working on this project tracked by WakaTime...
 
 ## To - Do's
 
-- Plug Website and Blog together, deployed.
-- Re-Write Blog Articles of my own
-- Save Blog article template
 - Migrate to Sanity for Blog content as a minimum
 - Migrate Entire project to Sanity if possible
 
