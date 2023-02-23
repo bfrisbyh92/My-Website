@@ -13,7 +13,7 @@ var experienceData = [
     organization: "Sovanah Global Logistics",
     position: "Warehouse Associate",
     desc: `At Sovanah Global Logistics, I worked in their warehouse. Doing inventory and managing freight through Magaya Software. We built pallets and crates on occasion. I've also done some related work driving a box truck, not directly for Sovanah but derived from them.`,
-    website: 'https://app.social3.club'
+    website: 'https://www.sovanalogistics.com/'
   },
   {
     icon: "/assets/images/cheesecake.jpeg",
@@ -21,7 +21,7 @@ var experienceData = [
     organization: "The Cheesecake Factory",
     position: "Server",
     desc: `I gained valuable experience in customer service and relationship building during my two+ year tenure as a server at The Cheesecake Factory. This experience has been instrumental in my understanding of what makes good customer service.`,
-    website: 'https://curiousjr.com'
+    website: 'https://www.thecheesecakefactory.com/'
   }
 ];
 
