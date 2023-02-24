@@ -54,7 +54,7 @@ const projectData = [
     img: "/assets/images/projects/pythonGTK2.png",
     seoimg: "/assets/images/projects/pythonGTK2.png",
     link: "python-gtk",
-    showOnHome: true,
+    showOnHome: false,
     tech: [
       "Python",
       "GTK-3.0",
